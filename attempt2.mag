@@ -1,0 +1,85 @@
+magic
+tech scmos
+timestamp 1668204417
+<< metal1 >>
+rect -32 76 -6 79
+rect 71 70 86 73
+rect -29 66 -13 70
+rect 83 27 86 70
+rect -53 24 95 27
+rect -53 -38 -50 24
+rect 92 11 95 24
+rect 133 15 174 18
+rect 234 18 276 22
+rect 92 7 108 11
+rect 160 7 179 11
+rect 210 8 218 12
+rect -54 -42 -6 -38
+rect 71 -44 88 -41
+rect -31 -51 -13 -47
+rect 85 -90 88 -44
+rect 84 -91 88 -90
+rect -64 -94 88 -91
+rect -64 -95 -41 -94
+rect -64 -209 -58 -95
+rect -45 -155 -41 -95
+rect 92 -107 95 7
+rect 133 -102 167 -99
+rect 92 -111 108 -107
+rect 160 -111 171 -107
+rect 168 -154 171 -111
+rect -45 -159 -6 -155
+rect 71 -159 171 -154
+rect -35 -168 -13 -164
+rect 176 -209 179 7
+rect 191 -2 210 2
+rect 238 -103 279 -99
+rect 195 -113 218 -109
+rect -64 -214 179 -209
+<< m2contact >>
+rect 174 15 178 19
+rect 206 8 210 12
+rect 167 -102 171 -98
+rect 206 -123 210 -119
+<< metal2 >>
+rect 178 15 199 18
+rect 195 12 199 15
+rect 195 8 206 12
+rect 171 -102 193 -99
+rect 189 -119 193 -102
+rect 189 -123 206 -119
+use DFFPOSX1  DFFPOSX1_0
+timestamp 1048618183
+transform 1 0 -19 0 1 33
+box -8 -3 104 105
+use DFFPOSX1  DFFPOSX1_1
+timestamp 1048618183
+transform 1 0 -19 0 1 -84
+box -8 -3 104 105
+use XOR2X1  XOR2X1_0
+timestamp 1053359338
+transform 1 0 106 0 1 -26
+box -8 -3 64 105
+use OR2X1  OR2X1_0
+timestamp 1053022145
+transform 1 0 208 0 1 -25
+box -8 -3 40 105
+use DFFPOSX1  DFFPOSX1_2
+timestamp 1048618183
+transform 1 0 -19 0 1 -201
+box -8 -3 104 105
+use XOR2X1  XOR2X1_1
+timestamp 1053359338
+transform 1 0 106 0 1 -144
+box -8 -3 64 105
+use OR2X1  OR2X1_1
+timestamp 1053022145
+transform 1 0 208 0 1 -146
+box -8 -3 40 105
+<< labels >>
+rlabel metal1 195 -113 199 -109 1 Input2
+rlabel metal1 191 -2 195 2 1 Input3
+rlabel metal1 -32 76 -29 79 1 Input1
+rlabel metal1 271 18 276 22 1 Output1
+rlabel metal1 274 -103 279 -99 7 Output2
+<< end >>

@@ -1,0 +1,51 @@
+magic
+tech scmos
+timestamp 1668219896
+<< metal1 >>
+rect 315 382 612 394
+rect 315 236 326 382
+rect 607 217 612 382
+rect 682 383 990 394
+rect 682 237 691 383
+rect 985 219 990 383
+rect 1063 381 1070 382
+rect 1062 373 1373 381
+rect 1063 239 1070 373
+rect 1369 221 1373 373
+rect 1448 380 1746 384
+rect 1448 241 1454 380
+rect 1741 222 1746 380
+rect 323 -9 329 119
+rect 611 -9 617 110
+rect 323 -17 618 -9
+rect 690 -11 694 120
+rect 989 -11 993 112
+rect 690 -22 993 -11
+rect 1068 -15 1073 122
+rect 1373 -15 1377 114
+rect 1452 -6 1457 124
+rect 1745 -6 1749 115
+rect 1452 -9 1749 -6
+rect 1068 -18 1377 -15
+rect 690 -23 694 -22
+use attempt2  attempt2_0
+timestamp 1668204417
+transform 1 0 50 0 1 218
+box -64 -214 279 138
+use attempt2  attempt2_1
+timestamp 1668204417
+transform 1 0 416 0 1 219
+box -64 -214 279 138
+use attempt2  attempt2_2
+timestamp 1668204417
+transform 1 0 794 0 1 221
+box -64 -214 279 138
+use attempt2  attempt2_3
+timestamp 1668204417
+transform 1 0 1178 0 1 223
+box -64 -214 279 138
+use attempt2  attempt2_4
+timestamp 1668204417
+transform 1 0 1550 0 1 224
+box -64 -214 279 138
+<< end >>

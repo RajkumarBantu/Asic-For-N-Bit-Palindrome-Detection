@@ -1,0 +1,1163 @@
+| units: 30 tech: scmos format: MIT
+p attempt2_4/m1_133_n102# attempt2_4/OR2X1_1/a_2_54# attempt2_4/OR2X1_1/a_9_54# 2 40 1765 132
+p attempt2_4/Input2 attempt2_4/OR2X1_1/a_9_54# attempt2_4/OR2X1_1/vdd 2 40 1770 132
+p attempt2_4/OR2X1_1/a_2_54# attempt2_4/OR2X1_1/vdd attempt2_4/Output2 2 20 1778 152
+n attempt2_4/m1_133_n102# attempt2_4/OR2X1_1/gnd attempt2_4/OR2X1_1/a_2_54# 2 10 1765 84
+n attempt2_4/Input2 attempt2_4/OR2X1_1/a_2_54# attempt2_4/OR2X1_1/gnd 2 10 1773 84
+n attempt2_4/OR2X1_1/a_2_54# attempt2_4/OR2X1_1/gnd attempt2_4/Output2 2 10 1781 84
+p attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_1/a_2_6# attempt2_4/XOR2X1_1/vdd 2 40 1663 134
+p attempt2_4/XOR2X1_1/a_13_43# attempt2_4/XOR2X1_1/vdd attempt2_4/XOR2X1_1/a_18_54# 2 40 1672 134
+p attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_1/a_18_54# attempt2_4/m1_133_n102# 2 40 1677 134
+p attempt2_4/XOR2X1_1/a_2_6# attempt2_4/m1_133_n102# attempt2_4/XOR2X1_1/a_35_54# 2 40 1689 134
+p attempt2_4/m1_71_n159# attempt2_4/XOR2X1_1/a_35_54# attempt2_4/XOR2X1_1/vdd 2 40 1694 134
+p attempt2_4/m1_71_n159# attempt2_4/XOR2X1_1/vdd attempt2_4/XOR2X1_1/a_13_43# 2 40 1703 134
+n attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_1/a_2_6# attempt2_4/XOR2X1_1/gnd 2 20 1663 86
+n attempt2_4/XOR2X1_1/a_13_43# attempt2_4/XOR2X1_1/gnd attempt2_4/XOR2X1_1/a_18_6# 2 20 1672 86
+n attempt2_4/XOR2X1_1/a_2_6# attempt2_4/XOR2X1_1/a_18_6# attempt2_4/m1_133_n102# 2 20 1677 86
+n attempt2_4/m1_n54_n42# attempt2_4/m1_133_n102# attempt2_4/XOR2X1_1/a_35_6# 2 20 1689 86
+n attempt2_4/m1_71_n159# attempt2_4/XOR2X1_1/a_35_6# attempt2_4/XOR2X1_1/gnd 2 20 1694 86
+n attempt2_4/m1_71_n159# attempt2_4/XOR2X1_1/gnd attempt2_4/XOR2X1_1/a_13_43# 2 20 1703 86
+p attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/vdd 2 40 1538 77
+p attempt2_4/m1_n64_n214# attempt2_4/DFFPOSX1_2/vdd attempt2_4/DFFPOSX1_2/a_17_74# 2 20 1546 97
+p attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_17_74# attempt2_4/DFFPOSX1_2/a_22_6# 2 20 1552 97
+p attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/a_22_6# attempt2_4/DFFPOSX1_2/a_31_74# 2 20 1560 97
+p attempt2_4/DFFPOSX1_2/a_34_4# attempt2_4/DFFPOSX1_2/a_31_74# attempt2_4/DFFPOSX1_2/vdd 2 20 1566 97
+p attempt2_4/DFFPOSX1_2/a_22_6# attempt2_4/DFFPOSX1_2/vdd attempt2_4/DFFPOSX1_2/a_34_4# 2 20 1574 97
+p attempt2_4/DFFPOSX1_2/a_34_4# attempt2_4/DFFPOSX1_2/vdd attempt2_4/DFFPOSX1_2/a_61_74# 2 20 1590 97
+p attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/a_61_74# attempt2_4/DFFPOSX1_2/a_66_6# 2 20 1595 97
+p attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_66_6# attempt2_4/DFFPOSX1_2/a_76_84# 2 10 1605 107
+p attempt2_4/m1_71_n159# attempt2_4/DFFPOSX1_2/a_76_84# attempt2_4/DFFPOSX1_2/vdd 2 10 1610 107
+n attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/gnd 2 20 1538 29
+p attempt2_4/DFFPOSX1_2/a_66_6# attempt2_4/DFFPOSX1_2/vdd attempt2_4/m1_71_n159# 2 40 1618 77
+n attempt2_4/m1_n64_n214# attempt2_4/DFFPOSX1_2/gnd attempt2_4/DFFPOSX1_2/a_17_6# 2 10 1546 29
+n attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/a_17_6# attempt2_4/DFFPOSX1_2/a_22_6# 2 10 1551 29
+n attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_22_6# attempt2_4/DFFPOSX1_2/a_31_6# 2 10 1560 29
+n attempt2_4/DFFPOSX1_2/a_34_4# attempt2_4/DFFPOSX1_2/a_31_6# attempt2_4/DFFPOSX1_2/gnd 2 10 1565 29
+n attempt2_4/DFFPOSX1_2/a_22_6# attempt2_4/DFFPOSX1_2/gnd attempt2_4/DFFPOSX1_2/a_34_4# 2 10 1574 29
+n attempt2_4/DFFPOSX1_2/a_34_4# attempt2_4/DFFPOSX1_2/gnd attempt2_4/DFFPOSX1_2/a_61_6# 2 10 1590 29
+n attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/a_61_6# attempt2_4/DFFPOSX1_2/a_66_6# 2 10 1595 29
+n attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/a_66_6# attempt2_4/DFFPOSX1_2/a_76_6# 2 10 1605 29
+n attempt2_4/m1_71_n159# attempt2_4/DFFPOSX1_2/a_76_6# attempt2_4/DFFPOSX1_2/gnd 2 10 1610 29
+n attempt2_4/DFFPOSX1_2/a_66_6# attempt2_4/DFFPOSX1_2/gnd attempt2_4/m1_71_n159# 2 20 1618 29
+p attempt2_4/Input3 attempt2_4/OR2X1_0/a_2_54# attempt2_4/OR2X1_0/a_9_54# 2 40 1765 253
+p attempt2_4/m1_133_15# attempt2_4/OR2X1_0/a_9_54# attempt2_4/OR2X1_0/vdd 2 40 1770 253
+p attempt2_4/OR2X1_0/a_2_54# attempt2_4/OR2X1_0/vdd attempt2_4/Output1 2 20 1778 273
+n attempt2_4/Input3 attempt2_4/OR2X1_0/gnd attempt2_4/OR2X1_0/a_2_54# 2 10 1765 205
+n attempt2_4/m1_133_15# attempt2_4/OR2X1_0/a_2_54# attempt2_4/OR2X1_0/gnd 2 10 1773 205
+n attempt2_4/OR2X1_0/a_2_54# attempt2_4/OR2X1_0/gnd attempt2_4/Output1 2 10 1781 205
+p attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_0/a_2_6# attempt2_4/XOR2X1_0/vdd 2 40 1663 252
+p attempt2_4/XOR2X1_0/a_13_43# attempt2_4/XOR2X1_0/vdd attempt2_4/XOR2X1_0/a_18_54# 2 40 1672 252
+p attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_0/a_18_54# attempt2_4/m1_133_15# 2 40 1677 252
+p attempt2_4/XOR2X1_0/a_2_6# attempt2_4/m1_133_15# attempt2_4/XOR2X1_0/a_35_54# 2 40 1689 252
+p attempt2_4/m1_n64_n214# attempt2_4/XOR2X1_0/a_35_54# attempt2_4/XOR2X1_0/vdd 2 40 1694 252
+p attempt2_4/m1_n64_n214# attempt2_4/XOR2X1_0/vdd attempt2_4/XOR2X1_0/a_13_43# 2 40 1703 252
+n attempt2_4/m1_n54_n42# attempt2_4/XOR2X1_0/a_2_6# attempt2_4/XOR2X1_0/gnd 2 20 1663 204
+n attempt2_4/XOR2X1_0/a_13_43# attempt2_4/XOR2X1_0/gnd attempt2_4/XOR2X1_0/a_18_6# 2 20 1672 204
+n attempt2_4/XOR2X1_0/a_2_6# attempt2_4/XOR2X1_0/a_18_6# attempt2_4/m1_133_15# 2 20 1677 204
+n attempt2_4/m1_n54_n42# attempt2_4/m1_133_15# attempt2_4/XOR2X1_0/a_35_6# 2 20 1689 204
+n attempt2_4/m1_n64_n214# attempt2_4/XOR2X1_0/a_35_6# attempt2_4/XOR2X1_0/gnd 2 20 1694 204
+n attempt2_4/m1_n64_n214# attempt2_4/XOR2X1_0/gnd attempt2_4/XOR2X1_0/a_13_43# 2 20 1703 204
+p attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/vdd 2 40 1538 194
+p attempt2_4/m1_n54_n42# attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_17_74# 2 20 1546 214
+p attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_17_74# attempt2_4/DFFPOSX1_1/a_22_6# 2 20 1552 214
+p attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/a_22_6# attempt2_4/DFFPOSX1_1/a_31_74# 2 20 1560 214
+p attempt2_4/DFFPOSX1_1/a_34_4# attempt2_4/DFFPOSX1_1/a_31_74# attempt2_4/DFFPOSX1_1/vdd 2 20 1566 214
+p attempt2_4/DFFPOSX1_1/a_22_6# attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_34_4# 2 20 1574 214
+p attempt2_4/DFFPOSX1_1/a_34_4# attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_61_74# 2 20 1590 214
+p attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/a_61_74# attempt2_4/DFFPOSX1_1/a_66_6# 2 20 1595 214
+p attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_66_6# attempt2_4/DFFPOSX1_1/a_76_84# 2 10 1605 224
+p attempt2_4/m1_n64_n214# attempt2_4/DFFPOSX1_1/a_76_84# attempt2_4/DFFPOSX1_1/vdd 2 10 1610 224
+n attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/gnd 2 20 1538 146
+p attempt2_4/DFFPOSX1_1/a_66_6# attempt2_4/DFFPOSX1_1/vdd attempt2_4/m1_n64_n214# 2 40 1618 194
+n attempt2_4/m1_n54_n42# attempt2_4/DFFPOSX1_1/gnd attempt2_4/DFFPOSX1_1/a_17_6# 2 10 1546 146
+n attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/a_17_6# attempt2_4/DFFPOSX1_1/a_22_6# 2 10 1551 146
+n attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_22_6# attempt2_4/DFFPOSX1_1/a_31_6# 2 10 1560 146
+n attempt2_4/DFFPOSX1_1/a_34_4# attempt2_4/DFFPOSX1_1/a_31_6# attempt2_4/DFFPOSX1_1/gnd 2 10 1565 146
+n attempt2_4/DFFPOSX1_1/a_22_6# attempt2_4/DFFPOSX1_1/gnd attempt2_4/DFFPOSX1_1/a_34_4# 2 10 1574 146
+n attempt2_4/DFFPOSX1_1/a_34_4# attempt2_4/DFFPOSX1_1/gnd attempt2_4/DFFPOSX1_1/a_61_6# 2 10 1590 146
+n attempt2_4/m1_n31_n51# attempt2_4/DFFPOSX1_1/a_61_6# attempt2_4/DFFPOSX1_1/a_66_6# 2 10 1595 146
+n attempt2_4/DFFPOSX1_1/a_2_6# attempt2_4/DFFPOSX1_1/a_66_6# attempt2_4/DFFPOSX1_1/a_76_6# 2 10 1605 146
+n attempt2_4/m1_n64_n214# attempt2_4/DFFPOSX1_1/a_76_6# attempt2_4/DFFPOSX1_1/gnd 2 10 1610 146
+n attempt2_4/DFFPOSX1_1/a_66_6# attempt2_4/DFFPOSX1_1/gnd attempt2_4/m1_n64_n214# 2 20 1618 146
+p attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/vdd 2 40 1538 311
+p attempt2_4/Input1 attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_17_74# 2 20 1546 331
+p attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_17_74# attempt2_4/DFFPOSX1_0/a_22_6# 2 20 1552 331
+p attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/a_22_6# attempt2_4/DFFPOSX1_0/a_31_74# 2 20 1560 331
+p attempt2_4/DFFPOSX1_0/a_34_4# attempt2_4/DFFPOSX1_0/a_31_74# attempt2_4/DFFPOSX1_0/vdd 2 20 1566 331
+p attempt2_4/DFFPOSX1_0/a_22_6# attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_34_4# 2 20 1574 331
+p attempt2_4/DFFPOSX1_0/a_34_4# attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_61_74# 2 20 1590 331
+p attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/a_61_74# attempt2_4/DFFPOSX1_0/a_66_6# 2 20 1595 331
+p attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_66_6# attempt2_4/DFFPOSX1_0/a_76_84# 2 10 1605 341
+p attempt2_4/m1_n54_n42# attempt2_4/DFFPOSX1_0/a_76_84# attempt2_4/DFFPOSX1_0/vdd 2 10 1610 341
+n attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/gnd 2 20 1538 263
+p attempt2_4/DFFPOSX1_0/a_66_6# attempt2_4/DFFPOSX1_0/vdd attempt2_4/m1_n54_n42# 2 40 1618 311
+n attempt2_4/Input1 attempt2_4/DFFPOSX1_0/gnd attempt2_4/DFFPOSX1_0/a_17_6# 2 10 1546 263
+n attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/a_17_6# attempt2_4/DFFPOSX1_0/a_22_6# 2 10 1551 263
+n attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_22_6# attempt2_4/DFFPOSX1_0/a_31_6# 2 10 1560 263
+n attempt2_4/DFFPOSX1_0/a_34_4# attempt2_4/DFFPOSX1_0/a_31_6# attempt2_4/DFFPOSX1_0/gnd 2 10 1565 263
+n attempt2_4/DFFPOSX1_0/a_22_6# attempt2_4/DFFPOSX1_0/gnd attempt2_4/DFFPOSX1_0/a_34_4# 2 10 1574 263
+n attempt2_4/DFFPOSX1_0/a_34_4# attempt2_4/DFFPOSX1_0/gnd attempt2_4/DFFPOSX1_0/a_61_6# 2 10 1590 263
+n attempt2_4/m1_n29_66# attempt2_4/DFFPOSX1_0/a_61_6# attempt2_4/DFFPOSX1_0/a_66_6# 2 10 1595 263
+n attempt2_4/DFFPOSX1_0/a_2_6# attempt2_4/DFFPOSX1_0/a_66_6# attempt2_4/DFFPOSX1_0/a_76_6# 2 10 1605 263
+n attempt2_4/m1_n54_n42# attempt2_4/DFFPOSX1_0/a_76_6# attempt2_4/DFFPOSX1_0/gnd 2 10 1610 263
+n attempt2_4/DFFPOSX1_0/a_66_6# attempt2_4/DFFPOSX1_0/gnd attempt2_4/m1_n54_n42# 2 20 1618 263
+p attempt2_3/m1_133_n102# attempt2_3/OR2X1_1/a_2_54# attempt2_3/OR2X1_1/a_9_54# 2 40 1393 131
+p attempt2_3/Input2 attempt2_3/OR2X1_1/a_9_54# attempt2_3/OR2X1_1/vdd 2 40 1398 131
+p attempt2_3/OR2X1_1/a_2_54# attempt2_3/OR2X1_1/vdd attempt2_4/Input2 2 20 1406 151
+n attempt2_3/m1_133_n102# attempt2_3/OR2X1_1/gnd attempt2_3/OR2X1_1/a_2_54# 2 10 1393 83
+n attempt2_3/Input2 attempt2_3/OR2X1_1/a_2_54# attempt2_3/OR2X1_1/gnd 2 10 1401 83
+n attempt2_3/OR2X1_1/a_2_54# attempt2_3/OR2X1_1/gnd attempt2_4/Input2 2 10 1409 83
+p attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_1/a_2_6# attempt2_3/XOR2X1_1/vdd 2 40 1291 133
+p attempt2_3/XOR2X1_1/a_13_43# attempt2_3/XOR2X1_1/vdd attempt2_3/XOR2X1_1/a_18_54# 2 40 1300 133
+p attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_1/a_18_54# attempt2_3/m1_133_n102# 2 40 1305 133
+p attempt2_3/XOR2X1_1/a_2_6# attempt2_3/m1_133_n102# attempt2_3/XOR2X1_1/a_35_54# 2 40 1317 133
+p attempt2_3/m1_71_n159# attempt2_3/XOR2X1_1/a_35_54# attempt2_3/XOR2X1_1/vdd 2 40 1322 133
+p attempt2_3/m1_71_n159# attempt2_3/XOR2X1_1/vdd attempt2_3/XOR2X1_1/a_13_43# 2 40 1331 133
+n attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_1/a_2_6# attempt2_3/XOR2X1_1/gnd 2 20 1291 85
+n attempt2_3/XOR2X1_1/a_13_43# attempt2_3/XOR2X1_1/gnd attempt2_3/XOR2X1_1/a_18_6# 2 20 1300 85
+n attempt2_3/XOR2X1_1/a_2_6# attempt2_3/XOR2X1_1/a_18_6# attempt2_3/m1_133_n102# 2 20 1305 85
+n attempt2_3/m1_n54_n42# attempt2_3/m1_133_n102# attempt2_3/XOR2X1_1/a_35_6# 2 20 1317 85
+n attempt2_3/m1_71_n159# attempt2_3/XOR2X1_1/a_35_6# attempt2_3/XOR2X1_1/gnd 2 20 1322 85
+n attempt2_3/m1_71_n159# attempt2_3/XOR2X1_1/gnd attempt2_3/XOR2X1_1/a_13_43# 2 20 1331 85
+p attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/vdd 2 40 1166 76
+p attempt2_3/m1_n64_n214# attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_17_74# 2 20 1174 96
+p attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_17_74# attempt2_3/DFFPOSX1_2/a_22_6# 2 20 1180 96
+p attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/a_22_6# attempt2_3/DFFPOSX1_2/a_31_74# 2 20 1188 96
+p attempt2_3/DFFPOSX1_2/a_34_4# attempt2_3/DFFPOSX1_2/a_31_74# attempt2_3/DFFPOSX1_2/vdd 2 20 1194 96
+p attempt2_3/DFFPOSX1_2/a_22_6# attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_34_4# 2 20 1202 96
+p attempt2_3/DFFPOSX1_2/a_34_4# attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_61_74# 2 20 1218 96
+p attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/a_61_74# attempt2_3/DFFPOSX1_2/a_66_6# 2 20 1223 96
+p attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_66_6# attempt2_3/DFFPOSX1_2/a_76_84# 2 10 1233 106
+p attempt2_3/m1_71_n159# attempt2_3/DFFPOSX1_2/a_76_84# attempt2_3/DFFPOSX1_2/vdd 2 10 1238 106
+n attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/gnd 2 20 1166 28
+p attempt2_3/DFFPOSX1_2/a_66_6# attempt2_3/DFFPOSX1_2/vdd attempt2_3/m1_71_n159# 2 40 1246 76
+n attempt2_3/m1_n64_n214# attempt2_3/DFFPOSX1_2/gnd attempt2_3/DFFPOSX1_2/a_17_6# 2 10 1174 28
+n attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/a_17_6# attempt2_3/DFFPOSX1_2/a_22_6# 2 10 1179 28
+n attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_22_6# attempt2_3/DFFPOSX1_2/a_31_6# 2 10 1188 28
+n attempt2_3/DFFPOSX1_2/a_34_4# attempt2_3/DFFPOSX1_2/a_31_6# attempt2_3/DFFPOSX1_2/gnd 2 10 1193 28
+n attempt2_3/DFFPOSX1_2/a_22_6# attempt2_3/DFFPOSX1_2/gnd attempt2_3/DFFPOSX1_2/a_34_4# 2 10 1202 28
+n attempt2_3/DFFPOSX1_2/a_34_4# attempt2_3/DFFPOSX1_2/gnd attempt2_3/DFFPOSX1_2/a_61_6# 2 10 1218 28
+n attempt2_3/m1_n35_n168# attempt2_3/DFFPOSX1_2/a_61_6# attempt2_3/DFFPOSX1_2/a_66_6# 2 10 1223 28
+n attempt2_3/DFFPOSX1_2/a_2_6# attempt2_3/DFFPOSX1_2/a_66_6# attempt2_3/DFFPOSX1_2/a_76_6# 2 10 1233 28
+n attempt2_3/m1_71_n159# attempt2_3/DFFPOSX1_2/a_76_6# attempt2_3/DFFPOSX1_2/gnd 2 10 1238 28
+n attempt2_3/DFFPOSX1_2/a_66_6# attempt2_3/DFFPOSX1_2/gnd attempt2_3/m1_71_n159# 2 20 1246 28
+p attempt2_3/Input3 attempt2_3/OR2X1_0/a_2_54# attempt2_3/OR2X1_0/a_9_54# 2 40 1393 252
+p attempt2_3/m1_133_15# attempt2_3/OR2X1_0/a_9_54# attempt2_3/OR2X1_0/vdd 2 40 1398 252
+p attempt2_3/OR2X1_0/a_2_54# attempt2_3/OR2X1_0/vdd attempt2_4/Input3 2 20 1406 272
+n attempt2_3/Input3 attempt2_3/OR2X1_0/gnd attempt2_3/OR2X1_0/a_2_54# 2 10 1393 204
+n attempt2_3/m1_133_15# attempt2_3/OR2X1_0/a_2_54# attempt2_3/OR2X1_0/gnd 2 10 1401 204
+n attempt2_3/OR2X1_0/a_2_54# attempt2_3/OR2X1_0/gnd attempt2_4/Input3 2 10 1409 204
+p attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_0/a_2_6# attempt2_3/XOR2X1_0/vdd 2 40 1291 251
+p attempt2_3/XOR2X1_0/a_13_43# attempt2_3/XOR2X1_0/vdd attempt2_3/XOR2X1_0/a_18_54# 2 40 1300 251
+p attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_0/a_18_54# attempt2_3/m1_133_15# 2 40 1305 251
+p attempt2_3/XOR2X1_0/a_2_6# attempt2_3/m1_133_15# attempt2_3/XOR2X1_0/a_35_54# 2 40 1317 251
+p attempt2_3/m1_n64_n214# attempt2_3/XOR2X1_0/a_35_54# attempt2_3/XOR2X1_0/vdd 2 40 1322 251
+p attempt2_3/m1_n64_n214# attempt2_3/XOR2X1_0/vdd attempt2_3/XOR2X1_0/a_13_43# 2 40 1331 251
+n attempt2_3/m1_n54_n42# attempt2_3/XOR2X1_0/a_2_6# attempt2_3/XOR2X1_0/gnd 2 20 1291 203
+n attempt2_3/XOR2X1_0/a_13_43# attempt2_3/XOR2X1_0/gnd attempt2_3/XOR2X1_0/a_18_6# 2 20 1300 203
+n attempt2_3/XOR2X1_0/a_2_6# attempt2_3/XOR2X1_0/a_18_6# attempt2_3/m1_133_15# 2 20 1305 203
+n attempt2_3/m1_n54_n42# attempt2_3/m1_133_15# attempt2_3/XOR2X1_0/a_35_6# 2 20 1317 203
+n attempt2_3/m1_n64_n214# attempt2_3/XOR2X1_0/a_35_6# attempt2_3/XOR2X1_0/gnd 2 20 1322 203
+n attempt2_3/m1_n64_n214# attempt2_3/XOR2X1_0/gnd attempt2_3/XOR2X1_0/a_13_43# 2 20 1331 203
+p attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/vdd 2 40 1166 193
+p attempt2_3/m1_n54_n42# attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_17_74# 2 20 1174 213
+p attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_17_74# attempt2_3/DFFPOSX1_1/a_22_6# 2 20 1180 213
+p attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/a_22_6# attempt2_3/DFFPOSX1_1/a_31_74# 2 20 1188 213
+p attempt2_3/DFFPOSX1_1/a_34_4# attempt2_3/DFFPOSX1_1/a_31_74# attempt2_3/DFFPOSX1_1/vdd 2 20 1194 213
+p attempt2_3/DFFPOSX1_1/a_22_6# attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_34_4# 2 20 1202 213
+p attempt2_3/DFFPOSX1_1/a_34_4# attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_61_74# 2 20 1218 213
+p attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/a_61_74# attempt2_3/DFFPOSX1_1/a_66_6# 2 20 1223 213
+p attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_66_6# attempt2_3/DFFPOSX1_1/a_76_84# 2 10 1233 223
+p attempt2_3/m1_n64_n214# attempt2_3/DFFPOSX1_1/a_76_84# attempt2_3/DFFPOSX1_1/vdd 2 10 1238 223
+n attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/gnd 2 20 1166 145
+p attempt2_3/DFFPOSX1_1/a_66_6# attempt2_3/DFFPOSX1_1/vdd attempt2_3/m1_n64_n214# 2 40 1246 193
+n attempt2_3/m1_n54_n42# attempt2_3/DFFPOSX1_1/gnd attempt2_3/DFFPOSX1_1/a_17_6# 2 10 1174 145
+n attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/a_17_6# attempt2_3/DFFPOSX1_1/a_22_6# 2 10 1179 145
+n attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_22_6# attempt2_3/DFFPOSX1_1/a_31_6# 2 10 1188 145
+n attempt2_3/DFFPOSX1_1/a_34_4# attempt2_3/DFFPOSX1_1/a_31_6# attempt2_3/DFFPOSX1_1/gnd 2 10 1193 145
+n attempt2_3/DFFPOSX1_1/a_22_6# attempt2_3/DFFPOSX1_1/gnd attempt2_3/DFFPOSX1_1/a_34_4# 2 10 1202 145
+n attempt2_3/DFFPOSX1_1/a_34_4# attempt2_3/DFFPOSX1_1/gnd attempt2_3/DFFPOSX1_1/a_61_6# 2 10 1218 145
+n attempt2_3/m1_n31_n51# attempt2_3/DFFPOSX1_1/a_61_6# attempt2_3/DFFPOSX1_1/a_66_6# 2 10 1223 145
+n attempt2_3/DFFPOSX1_1/a_2_6# attempt2_3/DFFPOSX1_1/a_66_6# attempt2_3/DFFPOSX1_1/a_76_6# 2 10 1233 145
+n attempt2_3/m1_n64_n214# attempt2_3/DFFPOSX1_1/a_76_6# attempt2_3/DFFPOSX1_1/gnd 2 10 1238 145
+n attempt2_3/DFFPOSX1_1/a_66_6# attempt2_3/DFFPOSX1_1/gnd attempt2_3/m1_n64_n214# 2 20 1246 145
+p attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/vdd 2 40 1166 310
+p attempt2_3/Input1 attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_17_74# 2 20 1174 330
+p attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_17_74# attempt2_3/DFFPOSX1_0/a_22_6# 2 20 1180 330
+p attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/a_22_6# attempt2_3/DFFPOSX1_0/a_31_74# 2 20 1188 330
+p attempt2_3/DFFPOSX1_0/a_34_4# attempt2_3/DFFPOSX1_0/a_31_74# attempt2_3/DFFPOSX1_0/vdd 2 20 1194 330
+p attempt2_3/DFFPOSX1_0/a_22_6# attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_34_4# 2 20 1202 330
+p attempt2_3/DFFPOSX1_0/a_34_4# attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_61_74# 2 20 1218 330
+p attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/a_61_74# attempt2_3/DFFPOSX1_0/a_66_6# 2 20 1223 330
+p attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_66_6# attempt2_3/DFFPOSX1_0/a_76_84# 2 10 1233 340
+p attempt2_3/m1_n54_n42# attempt2_3/DFFPOSX1_0/a_76_84# attempt2_3/DFFPOSX1_0/vdd 2 10 1238 340
+n attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/gnd 2 20 1166 262
+p attempt2_3/DFFPOSX1_0/a_66_6# attempt2_3/DFFPOSX1_0/vdd attempt2_3/m1_n54_n42# 2 40 1246 310
+n attempt2_3/Input1 attempt2_3/DFFPOSX1_0/gnd attempt2_3/DFFPOSX1_0/a_17_6# 2 10 1174 262
+n attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/a_17_6# attempt2_3/DFFPOSX1_0/a_22_6# 2 10 1179 262
+n attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_22_6# attempt2_3/DFFPOSX1_0/a_31_6# 2 10 1188 262
+n attempt2_3/DFFPOSX1_0/a_34_4# attempt2_3/DFFPOSX1_0/a_31_6# attempt2_3/DFFPOSX1_0/gnd 2 10 1193 262
+n attempt2_3/DFFPOSX1_0/a_22_6# attempt2_3/DFFPOSX1_0/gnd attempt2_3/DFFPOSX1_0/a_34_4# 2 10 1202 262
+n attempt2_3/DFFPOSX1_0/a_34_4# attempt2_3/DFFPOSX1_0/gnd attempt2_3/DFFPOSX1_0/a_61_6# 2 10 1218 262
+n attempt2_3/m1_n29_66# attempt2_3/DFFPOSX1_0/a_61_6# attempt2_3/DFFPOSX1_0/a_66_6# 2 10 1223 262
+n attempt2_3/DFFPOSX1_0/a_2_6# attempt2_3/DFFPOSX1_0/a_66_6# attempt2_3/DFFPOSX1_0/a_76_6# 2 10 1233 262
+n attempt2_3/m1_n54_n42# attempt2_3/DFFPOSX1_0/a_76_6# attempt2_3/DFFPOSX1_0/gnd 2 10 1238 262
+n attempt2_3/DFFPOSX1_0/a_66_6# attempt2_3/DFFPOSX1_0/gnd attempt2_3/m1_n54_n42# 2 20 1246 262
+p attempt2_2/m1_133_n102# attempt2_2/OR2X1_1/a_2_54# attempt2_2/OR2X1_1/a_9_54# 2 40 1009 129
+p attempt2_2/Input2 attempt2_2/OR2X1_1/a_9_54# attempt2_2/OR2X1_1/vdd 2 40 1014 129
+p attempt2_2/OR2X1_1/a_2_54# attempt2_2/OR2X1_1/vdd attempt2_3/Input2 2 20 1022 149
+n attempt2_2/m1_133_n102# attempt2_2/OR2X1_1/gnd attempt2_2/OR2X1_1/a_2_54# 2 10 1009 81
+n attempt2_2/Input2 attempt2_2/OR2X1_1/a_2_54# attempt2_2/OR2X1_1/gnd 2 10 1017 81
+n attempt2_2/OR2X1_1/a_2_54# attempt2_2/OR2X1_1/gnd attempt2_3/Input2 2 10 1025 81
+p attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_1/a_2_6# attempt2_2/XOR2X1_1/vdd 2 40 907 131
+p attempt2_2/XOR2X1_1/a_13_43# attempt2_2/XOR2X1_1/vdd attempt2_2/XOR2X1_1/a_18_54# 2 40 916 131
+p attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_1/a_18_54# attempt2_2/m1_133_n102# 2 40 921 131
+p attempt2_2/XOR2X1_1/a_2_6# attempt2_2/m1_133_n102# attempt2_2/XOR2X1_1/a_35_54# 2 40 933 131
+p attempt2_2/m1_71_n159# attempt2_2/XOR2X1_1/a_35_54# attempt2_2/XOR2X1_1/vdd 2 40 938 131
+p attempt2_2/m1_71_n159# attempt2_2/XOR2X1_1/vdd attempt2_2/XOR2X1_1/a_13_43# 2 40 947 131
+n attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_1/a_2_6# attempt2_2/XOR2X1_1/gnd 2 20 907 83
+n attempt2_2/XOR2X1_1/a_13_43# attempt2_2/XOR2X1_1/gnd attempt2_2/XOR2X1_1/a_18_6# 2 20 916 83
+n attempt2_2/XOR2X1_1/a_2_6# attempt2_2/XOR2X1_1/a_18_6# attempt2_2/m1_133_n102# 2 20 921 83
+n attempt2_2/m1_n54_n42# attempt2_2/m1_133_n102# attempt2_2/XOR2X1_1/a_35_6# 2 20 933 83
+n attempt2_2/m1_71_n159# attempt2_2/XOR2X1_1/a_35_6# attempt2_2/XOR2X1_1/gnd 2 20 938 83
+n attempt2_2/m1_71_n159# attempt2_2/XOR2X1_1/gnd attempt2_2/XOR2X1_1/a_13_43# 2 20 947 83
+p attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/vdd 2 40 782 74
+p attempt2_2/m1_n64_n214# attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_17_74# 2 20 790 94
+p attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_17_74# attempt2_2/DFFPOSX1_2/a_22_6# 2 20 796 94
+p attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/a_22_6# attempt2_2/DFFPOSX1_2/a_31_74# 2 20 804 94
+p attempt2_2/DFFPOSX1_2/a_34_4# attempt2_2/DFFPOSX1_2/a_31_74# attempt2_2/DFFPOSX1_2/vdd 2 20 810 94
+p attempt2_2/DFFPOSX1_2/a_22_6# attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_34_4# 2 20 818 94
+p attempt2_2/DFFPOSX1_2/a_34_4# attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_61_74# 2 20 834 94
+p attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/a_61_74# attempt2_2/DFFPOSX1_2/a_66_6# 2 20 839 94
+p attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_66_6# attempt2_2/DFFPOSX1_2/a_76_84# 2 10 849 104
+p attempt2_2/m1_71_n159# attempt2_2/DFFPOSX1_2/a_76_84# attempt2_2/DFFPOSX1_2/vdd 2 10 854 104
+n attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/gnd 2 20 782 26
+p attempt2_2/DFFPOSX1_2/a_66_6# attempt2_2/DFFPOSX1_2/vdd attempt2_2/m1_71_n159# 2 40 862 74
+n attempt2_2/m1_n64_n214# attempt2_2/DFFPOSX1_2/gnd attempt2_2/DFFPOSX1_2/a_17_6# 2 10 790 26
+n attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/a_17_6# attempt2_2/DFFPOSX1_2/a_22_6# 2 10 795 26
+n attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_22_6# attempt2_2/DFFPOSX1_2/a_31_6# 2 10 804 26
+n attempt2_2/DFFPOSX1_2/a_34_4# attempt2_2/DFFPOSX1_2/a_31_6# attempt2_2/DFFPOSX1_2/gnd 2 10 809 26
+n attempt2_2/DFFPOSX1_2/a_22_6# attempt2_2/DFFPOSX1_2/gnd attempt2_2/DFFPOSX1_2/a_34_4# 2 10 818 26
+n attempt2_2/DFFPOSX1_2/a_34_4# attempt2_2/DFFPOSX1_2/gnd attempt2_2/DFFPOSX1_2/a_61_6# 2 10 834 26
+n attempt2_2/m1_n35_n168# attempt2_2/DFFPOSX1_2/a_61_6# attempt2_2/DFFPOSX1_2/a_66_6# 2 10 839 26
+n attempt2_2/DFFPOSX1_2/a_2_6# attempt2_2/DFFPOSX1_2/a_66_6# attempt2_2/DFFPOSX1_2/a_76_6# 2 10 849 26
+n attempt2_2/m1_71_n159# attempt2_2/DFFPOSX1_2/a_76_6# attempt2_2/DFFPOSX1_2/gnd 2 10 854 26
+n attempt2_2/DFFPOSX1_2/a_66_6# attempt2_2/DFFPOSX1_2/gnd attempt2_2/m1_71_n159# 2 20 862 26
+p attempt2_2/Input3 attempt2_2/OR2X1_0/a_2_54# attempt2_2/OR2X1_0/a_9_54# 2 40 1009 250
+p attempt2_2/m1_133_15# attempt2_2/OR2X1_0/a_9_54# attempt2_2/OR2X1_0/vdd 2 40 1014 250
+p attempt2_2/OR2X1_0/a_2_54# attempt2_2/OR2X1_0/vdd attempt2_3/Input3 2 20 1022 270
+n attempt2_2/Input3 attempt2_2/OR2X1_0/gnd attempt2_2/OR2X1_0/a_2_54# 2 10 1009 202
+n attempt2_2/m1_133_15# attempt2_2/OR2X1_0/a_2_54# attempt2_2/OR2X1_0/gnd 2 10 1017 202
+n attempt2_2/OR2X1_0/a_2_54# attempt2_2/OR2X1_0/gnd attempt2_3/Input3 2 10 1025 202
+p attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_0/a_2_6# attempt2_2/XOR2X1_0/vdd 2 40 907 249
+p attempt2_2/XOR2X1_0/a_13_43# attempt2_2/XOR2X1_0/vdd attempt2_2/XOR2X1_0/a_18_54# 2 40 916 249
+p attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_0/a_18_54# attempt2_2/m1_133_15# 2 40 921 249
+p attempt2_2/XOR2X1_0/a_2_6# attempt2_2/m1_133_15# attempt2_2/XOR2X1_0/a_35_54# 2 40 933 249
+p attempt2_2/m1_n64_n214# attempt2_2/XOR2X1_0/a_35_54# attempt2_2/XOR2X1_0/vdd 2 40 938 249
+p attempt2_2/m1_n64_n214# attempt2_2/XOR2X1_0/vdd attempt2_2/XOR2X1_0/a_13_43# 2 40 947 249
+n attempt2_2/m1_n54_n42# attempt2_2/XOR2X1_0/a_2_6# attempt2_2/XOR2X1_0/gnd 2 20 907 201
+n attempt2_2/XOR2X1_0/a_13_43# attempt2_2/XOR2X1_0/gnd attempt2_2/XOR2X1_0/a_18_6# 2 20 916 201
+n attempt2_2/XOR2X1_0/a_2_6# attempt2_2/XOR2X1_0/a_18_6# attempt2_2/m1_133_15# 2 20 921 201
+n attempt2_2/m1_n54_n42# attempt2_2/m1_133_15# attempt2_2/XOR2X1_0/a_35_6# 2 20 933 201
+n attempt2_2/m1_n64_n214# attempt2_2/XOR2X1_0/a_35_6# attempt2_2/XOR2X1_0/gnd 2 20 938 201
+n attempt2_2/m1_n64_n214# attempt2_2/XOR2X1_0/gnd attempt2_2/XOR2X1_0/a_13_43# 2 20 947 201
+p attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/vdd 2 40 782 191
+p attempt2_2/m1_n54_n42# attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_17_74# 2 20 790 211
+p attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_17_74# attempt2_2/DFFPOSX1_1/a_22_6# 2 20 796 211
+p attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/a_22_6# attempt2_2/DFFPOSX1_1/a_31_74# 2 20 804 211
+p attempt2_2/DFFPOSX1_1/a_34_4# attempt2_2/DFFPOSX1_1/a_31_74# attempt2_2/DFFPOSX1_1/vdd 2 20 810 211
+p attempt2_2/DFFPOSX1_1/a_22_6# attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_34_4# 2 20 818 211
+p attempt2_2/DFFPOSX1_1/a_34_4# attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_61_74# 2 20 834 211
+p attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/a_61_74# attempt2_2/DFFPOSX1_1/a_66_6# 2 20 839 211
+p attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_66_6# attempt2_2/DFFPOSX1_1/a_76_84# 2 10 849 221
+p attempt2_2/m1_n64_n214# attempt2_2/DFFPOSX1_1/a_76_84# attempt2_2/DFFPOSX1_1/vdd 2 10 854 221
+n attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/gnd 2 20 782 143
+p attempt2_2/DFFPOSX1_1/a_66_6# attempt2_2/DFFPOSX1_1/vdd attempt2_2/m1_n64_n214# 2 40 862 191
+n attempt2_2/m1_n54_n42# attempt2_2/DFFPOSX1_1/gnd attempt2_2/DFFPOSX1_1/a_17_6# 2 10 790 143
+n attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/a_17_6# attempt2_2/DFFPOSX1_1/a_22_6# 2 10 795 143
+n attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_22_6# attempt2_2/DFFPOSX1_1/a_31_6# 2 10 804 143
+n attempt2_2/DFFPOSX1_1/a_34_4# attempt2_2/DFFPOSX1_1/a_31_6# attempt2_2/DFFPOSX1_1/gnd 2 10 809 143
+n attempt2_2/DFFPOSX1_1/a_22_6# attempt2_2/DFFPOSX1_1/gnd attempt2_2/DFFPOSX1_1/a_34_4# 2 10 818 143
+n attempt2_2/DFFPOSX1_1/a_34_4# attempt2_2/DFFPOSX1_1/gnd attempt2_2/DFFPOSX1_1/a_61_6# 2 10 834 143
+n attempt2_2/m1_n31_n51# attempt2_2/DFFPOSX1_1/a_61_6# attempt2_2/DFFPOSX1_1/a_66_6# 2 10 839 143
+n attempt2_2/DFFPOSX1_1/a_2_6# attempt2_2/DFFPOSX1_1/a_66_6# attempt2_2/DFFPOSX1_1/a_76_6# 2 10 849 143
+n attempt2_2/m1_n64_n214# attempt2_2/DFFPOSX1_1/a_76_6# attempt2_2/DFFPOSX1_1/gnd 2 10 854 143
+n attempt2_2/DFFPOSX1_1/a_66_6# attempt2_2/DFFPOSX1_1/gnd attempt2_2/m1_n64_n214# 2 20 862 143
+p attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/vdd 2 40 782 308
+p attempt2_2/Input1 attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_17_74# 2 20 790 328
+p attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_17_74# attempt2_2/DFFPOSX1_0/a_22_6# 2 20 796 328
+p attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/a_22_6# attempt2_2/DFFPOSX1_0/a_31_74# 2 20 804 328
+p attempt2_2/DFFPOSX1_0/a_34_4# attempt2_2/DFFPOSX1_0/a_31_74# attempt2_2/DFFPOSX1_0/vdd 2 20 810 328
+p attempt2_2/DFFPOSX1_0/a_22_6# attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_34_4# 2 20 818 328
+p attempt2_2/DFFPOSX1_0/a_34_4# attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_61_74# 2 20 834 328
+p attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/a_61_74# attempt2_2/DFFPOSX1_0/a_66_6# 2 20 839 328
+p attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_66_6# attempt2_2/DFFPOSX1_0/a_76_84# 2 10 849 338
+p attempt2_2/m1_n54_n42# attempt2_2/DFFPOSX1_0/a_76_84# attempt2_2/DFFPOSX1_0/vdd 2 10 854 338
+n attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/gnd 2 20 782 260
+p attempt2_2/DFFPOSX1_0/a_66_6# attempt2_2/DFFPOSX1_0/vdd attempt2_2/m1_n54_n42# 2 40 862 308
+n attempt2_2/Input1 attempt2_2/DFFPOSX1_0/gnd attempt2_2/DFFPOSX1_0/a_17_6# 2 10 790 260
+n attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/a_17_6# attempt2_2/DFFPOSX1_0/a_22_6# 2 10 795 260
+n attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_22_6# attempt2_2/DFFPOSX1_0/a_31_6# 2 10 804 260
+n attempt2_2/DFFPOSX1_0/a_34_4# attempt2_2/DFFPOSX1_0/a_31_6# attempt2_2/DFFPOSX1_0/gnd 2 10 809 260
+n attempt2_2/DFFPOSX1_0/a_22_6# attempt2_2/DFFPOSX1_0/gnd attempt2_2/DFFPOSX1_0/a_34_4# 2 10 818 260
+n attempt2_2/DFFPOSX1_0/a_34_4# attempt2_2/DFFPOSX1_0/gnd attempt2_2/DFFPOSX1_0/a_61_6# 2 10 834 260
+n attempt2_2/m1_n29_66# attempt2_2/DFFPOSX1_0/a_61_6# attempt2_2/DFFPOSX1_0/a_66_6# 2 10 839 260
+n attempt2_2/DFFPOSX1_0/a_2_6# attempt2_2/DFFPOSX1_0/a_66_6# attempt2_2/DFFPOSX1_0/a_76_6# 2 10 849 260
+n attempt2_2/m1_n54_n42# attempt2_2/DFFPOSX1_0/a_76_6# attempt2_2/DFFPOSX1_0/gnd 2 10 854 260
+n attempt2_2/DFFPOSX1_0/a_66_6# attempt2_2/DFFPOSX1_0/gnd attempt2_2/m1_n54_n42# 2 20 862 260
+p attempt2_1/m1_133_n102# attempt2_1/OR2X1_1/a_2_54# attempt2_1/OR2X1_1/a_9_54# 2 40 631 127
+p attempt2_1/Input2 attempt2_1/OR2X1_1/a_9_54# attempt2_1/OR2X1_1/vdd 2 40 636 127
+p attempt2_1/OR2X1_1/a_2_54# attempt2_1/OR2X1_1/vdd attempt2_2/Input2 2 20 644 147
+n attempt2_1/m1_133_n102# attempt2_1/OR2X1_1/gnd attempt2_1/OR2X1_1/a_2_54# 2 10 631 79
+n attempt2_1/Input2 attempt2_1/OR2X1_1/a_2_54# attempt2_1/OR2X1_1/gnd 2 10 639 79
+n attempt2_1/OR2X1_1/a_2_54# attempt2_1/OR2X1_1/gnd attempt2_2/Input2 2 10 647 79
+p attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_1/a_2_6# attempt2_1/XOR2X1_1/vdd 2 40 529 129
+p attempt2_1/XOR2X1_1/a_13_43# attempt2_1/XOR2X1_1/vdd attempt2_1/XOR2X1_1/a_18_54# 2 40 538 129
+p attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_1/a_18_54# attempt2_1/m1_133_n102# 2 40 543 129
+p attempt2_1/XOR2X1_1/a_2_6# attempt2_1/m1_133_n102# attempt2_1/XOR2X1_1/a_35_54# 2 40 555 129
+p attempt2_1/m1_71_n159# attempt2_1/XOR2X1_1/a_35_54# attempt2_1/XOR2X1_1/vdd 2 40 560 129
+p attempt2_1/m1_71_n159# attempt2_1/XOR2X1_1/vdd attempt2_1/XOR2X1_1/a_13_43# 2 40 569 129
+n attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_1/a_2_6# attempt2_1/XOR2X1_1/gnd 2 20 529 81
+n attempt2_1/XOR2X1_1/a_13_43# attempt2_1/XOR2X1_1/gnd attempt2_1/XOR2X1_1/a_18_6# 2 20 538 81
+n attempt2_1/XOR2X1_1/a_2_6# attempt2_1/XOR2X1_1/a_18_6# attempt2_1/m1_133_n102# 2 20 543 81
+n attempt2_1/m1_n54_n42# attempt2_1/m1_133_n102# attempt2_1/XOR2X1_1/a_35_6# 2 20 555 81
+n attempt2_1/m1_71_n159# attempt2_1/XOR2X1_1/a_35_6# attempt2_1/XOR2X1_1/gnd 2 20 560 81
+n attempt2_1/m1_71_n159# attempt2_1/XOR2X1_1/gnd attempt2_1/XOR2X1_1/a_13_43# 2 20 569 81
+p attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/vdd 2 40 404 72
+p attempt2_1/m1_n64_n214# attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_17_74# 2 20 412 92
+p attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_17_74# attempt2_1/DFFPOSX1_2/a_22_6# 2 20 418 92
+p attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/a_22_6# attempt2_1/DFFPOSX1_2/a_31_74# 2 20 426 92
+p attempt2_1/DFFPOSX1_2/a_34_4# attempt2_1/DFFPOSX1_2/a_31_74# attempt2_1/DFFPOSX1_2/vdd 2 20 432 92
+p attempt2_1/DFFPOSX1_2/a_22_6# attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_34_4# 2 20 440 92
+p attempt2_1/DFFPOSX1_2/a_34_4# attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_61_74# 2 20 456 92
+p attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/a_61_74# attempt2_1/DFFPOSX1_2/a_66_6# 2 20 461 92
+p attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_66_6# attempt2_1/DFFPOSX1_2/a_76_84# 2 10 471 102
+p attempt2_1/m1_71_n159# attempt2_1/DFFPOSX1_2/a_76_84# attempt2_1/DFFPOSX1_2/vdd 2 10 476 102
+n attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/gnd 2 20 404 24
+p attempt2_1/DFFPOSX1_2/a_66_6# attempt2_1/DFFPOSX1_2/vdd attempt2_1/m1_71_n159# 2 40 484 72
+n attempt2_1/m1_n64_n214# attempt2_1/DFFPOSX1_2/gnd attempt2_1/DFFPOSX1_2/a_17_6# 2 10 412 24
+n attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/a_17_6# attempt2_1/DFFPOSX1_2/a_22_6# 2 10 417 24
+n attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_22_6# attempt2_1/DFFPOSX1_2/a_31_6# 2 10 426 24
+n attempt2_1/DFFPOSX1_2/a_34_4# attempt2_1/DFFPOSX1_2/a_31_6# attempt2_1/DFFPOSX1_2/gnd 2 10 431 24
+n attempt2_1/DFFPOSX1_2/a_22_6# attempt2_1/DFFPOSX1_2/gnd attempt2_1/DFFPOSX1_2/a_34_4# 2 10 440 24
+n attempt2_1/DFFPOSX1_2/a_34_4# attempt2_1/DFFPOSX1_2/gnd attempt2_1/DFFPOSX1_2/a_61_6# 2 10 456 24
+n attempt2_1/m1_n35_n168# attempt2_1/DFFPOSX1_2/a_61_6# attempt2_1/DFFPOSX1_2/a_66_6# 2 10 461 24
+n attempt2_1/DFFPOSX1_2/a_2_6# attempt2_1/DFFPOSX1_2/a_66_6# attempt2_1/DFFPOSX1_2/a_76_6# 2 10 471 24
+n attempt2_1/m1_71_n159# attempt2_1/DFFPOSX1_2/a_76_6# attempt2_1/DFFPOSX1_2/gnd 2 10 476 24
+n attempt2_1/DFFPOSX1_2/a_66_6# attempt2_1/DFFPOSX1_2/gnd attempt2_1/m1_71_n159# 2 20 484 24
+p attempt2_1/Input3 attempt2_1/OR2X1_0/a_2_54# attempt2_1/OR2X1_0/a_9_54# 2 40 631 248
+p attempt2_1/m1_133_15# attempt2_1/OR2X1_0/a_9_54# attempt2_1/OR2X1_0/vdd 2 40 636 248
+p attempt2_1/OR2X1_0/a_2_54# attempt2_1/OR2X1_0/vdd attempt2_2/Input3 2 20 644 268
+n attempt2_1/Input3 attempt2_1/OR2X1_0/gnd attempt2_1/OR2X1_0/a_2_54# 2 10 631 200
+n attempt2_1/m1_133_15# attempt2_1/OR2X1_0/a_2_54# attempt2_1/OR2X1_0/gnd 2 10 639 200
+n attempt2_1/OR2X1_0/a_2_54# attempt2_1/OR2X1_0/gnd attempt2_2/Input3 2 10 647 200
+p attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_0/a_2_6# attempt2_1/XOR2X1_0/vdd 2 40 529 247
+p attempt2_1/XOR2X1_0/a_13_43# attempt2_1/XOR2X1_0/vdd attempt2_1/XOR2X1_0/a_18_54# 2 40 538 247
+p attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_0/a_18_54# attempt2_1/m1_133_15# 2 40 543 247
+p attempt2_1/XOR2X1_0/a_2_6# attempt2_1/m1_133_15# attempt2_1/XOR2X1_0/a_35_54# 2 40 555 247
+p attempt2_1/m1_n64_n214# attempt2_1/XOR2X1_0/a_35_54# attempt2_1/XOR2X1_0/vdd 2 40 560 247
+p attempt2_1/m1_n64_n214# attempt2_1/XOR2X1_0/vdd attempt2_1/XOR2X1_0/a_13_43# 2 40 569 247
+n attempt2_1/m1_n54_n42# attempt2_1/XOR2X1_0/a_2_6# attempt2_1/XOR2X1_0/gnd 2 20 529 199
+n attempt2_1/XOR2X1_0/a_13_43# attempt2_1/XOR2X1_0/gnd attempt2_1/XOR2X1_0/a_18_6# 2 20 538 199
+n attempt2_1/XOR2X1_0/a_2_6# attempt2_1/XOR2X1_0/a_18_6# attempt2_1/m1_133_15# 2 20 543 199
+n attempt2_1/m1_n54_n42# attempt2_1/m1_133_15# attempt2_1/XOR2X1_0/a_35_6# 2 20 555 199
+n attempt2_1/m1_n64_n214# attempt2_1/XOR2X1_0/a_35_6# attempt2_1/XOR2X1_0/gnd 2 20 560 199
+n attempt2_1/m1_n64_n214# attempt2_1/XOR2X1_0/gnd attempt2_1/XOR2X1_0/a_13_43# 2 20 569 199
+p attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/vdd 2 40 404 189
+p attempt2_1/m1_n54_n42# attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_17_74# 2 20 412 209
+p attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_17_74# attempt2_1/DFFPOSX1_1/a_22_6# 2 20 418 209
+p attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/a_22_6# attempt2_1/DFFPOSX1_1/a_31_74# 2 20 426 209
+p attempt2_1/DFFPOSX1_1/a_34_4# attempt2_1/DFFPOSX1_1/a_31_74# attempt2_1/DFFPOSX1_1/vdd 2 20 432 209
+p attempt2_1/DFFPOSX1_1/a_22_6# attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_34_4# 2 20 440 209
+p attempt2_1/DFFPOSX1_1/a_34_4# attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_61_74# 2 20 456 209
+p attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/a_61_74# attempt2_1/DFFPOSX1_1/a_66_6# 2 20 461 209
+p attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_66_6# attempt2_1/DFFPOSX1_1/a_76_84# 2 10 471 219
+p attempt2_1/m1_n64_n214# attempt2_1/DFFPOSX1_1/a_76_84# attempt2_1/DFFPOSX1_1/vdd 2 10 476 219
+n attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/gnd 2 20 404 141
+p attempt2_1/DFFPOSX1_1/a_66_6# attempt2_1/DFFPOSX1_1/vdd attempt2_1/m1_n64_n214# 2 40 484 189
+n attempt2_1/m1_n54_n42# attempt2_1/DFFPOSX1_1/gnd attempt2_1/DFFPOSX1_1/a_17_6# 2 10 412 141
+n attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/a_17_6# attempt2_1/DFFPOSX1_1/a_22_6# 2 10 417 141
+n attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_22_6# attempt2_1/DFFPOSX1_1/a_31_6# 2 10 426 141
+n attempt2_1/DFFPOSX1_1/a_34_4# attempt2_1/DFFPOSX1_1/a_31_6# attempt2_1/DFFPOSX1_1/gnd 2 10 431 141
+n attempt2_1/DFFPOSX1_1/a_22_6# attempt2_1/DFFPOSX1_1/gnd attempt2_1/DFFPOSX1_1/a_34_4# 2 10 440 141
+n attempt2_1/DFFPOSX1_1/a_34_4# attempt2_1/DFFPOSX1_1/gnd attempt2_1/DFFPOSX1_1/a_61_6# 2 10 456 141
+n attempt2_1/m1_n31_n51# attempt2_1/DFFPOSX1_1/a_61_6# attempt2_1/DFFPOSX1_1/a_66_6# 2 10 461 141
+n attempt2_1/DFFPOSX1_1/a_2_6# attempt2_1/DFFPOSX1_1/a_66_6# attempt2_1/DFFPOSX1_1/a_76_6# 2 10 471 141
+n attempt2_1/m1_n64_n214# attempt2_1/DFFPOSX1_1/a_76_6# attempt2_1/DFFPOSX1_1/gnd 2 10 476 141
+n attempt2_1/DFFPOSX1_1/a_66_6# attempt2_1/DFFPOSX1_1/gnd attempt2_1/m1_n64_n214# 2 20 484 141
+p attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/vdd 2 40 404 306
+p attempt2_1/Input1 attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_17_74# 2 20 412 326
+p attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_17_74# attempt2_1/DFFPOSX1_0/a_22_6# 2 20 418 326
+p attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/a_22_6# attempt2_1/DFFPOSX1_0/a_31_74# 2 20 426 326
+p attempt2_1/DFFPOSX1_0/a_34_4# attempt2_1/DFFPOSX1_0/a_31_74# attempt2_1/DFFPOSX1_0/vdd 2 20 432 326
+p attempt2_1/DFFPOSX1_0/a_22_6# attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_34_4# 2 20 440 326
+p attempt2_1/DFFPOSX1_0/a_34_4# attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_61_74# 2 20 456 326
+p attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/a_61_74# attempt2_1/DFFPOSX1_0/a_66_6# 2 20 461 326
+p attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_66_6# attempt2_1/DFFPOSX1_0/a_76_84# 2 10 471 336
+p attempt2_1/m1_n54_n42# attempt2_1/DFFPOSX1_0/a_76_84# attempt2_1/DFFPOSX1_0/vdd 2 10 476 336
+n attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/gnd 2 20 404 258
+p attempt2_1/DFFPOSX1_0/a_66_6# attempt2_1/DFFPOSX1_0/vdd attempt2_1/m1_n54_n42# 2 40 484 306
+n attempt2_1/Input1 attempt2_1/DFFPOSX1_0/gnd attempt2_1/DFFPOSX1_0/a_17_6# 2 10 412 258
+n attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/a_17_6# attempt2_1/DFFPOSX1_0/a_22_6# 2 10 417 258
+n attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_22_6# attempt2_1/DFFPOSX1_0/a_31_6# 2 10 426 258
+n attempt2_1/DFFPOSX1_0/a_34_4# attempt2_1/DFFPOSX1_0/a_31_6# attempt2_1/DFFPOSX1_0/gnd 2 10 431 258
+n attempt2_1/DFFPOSX1_0/a_22_6# attempt2_1/DFFPOSX1_0/gnd attempt2_1/DFFPOSX1_0/a_34_4# 2 10 440 258
+n attempt2_1/DFFPOSX1_0/a_34_4# attempt2_1/DFFPOSX1_0/gnd attempt2_1/DFFPOSX1_0/a_61_6# 2 10 456 258
+n attempt2_1/m1_n29_66# attempt2_1/DFFPOSX1_0/a_61_6# attempt2_1/DFFPOSX1_0/a_66_6# 2 10 461 258
+n attempt2_1/DFFPOSX1_0/a_2_6# attempt2_1/DFFPOSX1_0/a_66_6# attempt2_1/DFFPOSX1_0/a_76_6# 2 10 471 258
+n attempt2_1/m1_n54_n42# attempt2_1/DFFPOSX1_0/a_76_6# attempt2_1/DFFPOSX1_0/gnd 2 10 476 258
+n attempt2_1/DFFPOSX1_0/a_66_6# attempt2_1/DFFPOSX1_0/gnd attempt2_1/m1_n54_n42# 2 20 484 258
+p attempt2_0/m1_133_n102# attempt2_0/OR2X1_1/a_2_54# attempt2_0/OR2X1_1/a_9_54# 2 40 265 126
+p attempt2_0/Input2 attempt2_0/OR2X1_1/a_9_54# attempt2_0/OR2X1_1/vdd 2 40 270 126
+p attempt2_0/OR2X1_1/a_2_54# attempt2_0/OR2X1_1/vdd attempt2_1/Input2 2 20 278 146
+n attempt2_0/m1_133_n102# attempt2_0/OR2X1_1/gnd attempt2_0/OR2X1_1/a_2_54# 2 10 265 78
+n attempt2_0/Input2 attempt2_0/OR2X1_1/a_2_54# attempt2_0/OR2X1_1/gnd 2 10 273 78
+n attempt2_0/OR2X1_1/a_2_54# attempt2_0/OR2X1_1/gnd attempt2_1/Input2 2 10 281 78
+p attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_1/a_2_6# attempt2_0/XOR2X1_1/vdd 2 40 163 128
+p attempt2_0/XOR2X1_1/a_13_43# attempt2_0/XOR2X1_1/vdd attempt2_0/XOR2X1_1/a_18_54# 2 40 172 128
+p attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_1/a_18_54# attempt2_0/m1_133_n102# 2 40 177 128
+p attempt2_0/XOR2X1_1/a_2_6# attempt2_0/m1_133_n102# attempt2_0/XOR2X1_1/a_35_54# 2 40 189 128
+p attempt2_0/m1_71_n159# attempt2_0/XOR2X1_1/a_35_54# attempt2_0/XOR2X1_1/vdd 2 40 194 128
+p attempt2_0/m1_71_n159# attempt2_0/XOR2X1_1/vdd attempt2_0/XOR2X1_1/a_13_43# 2 40 203 128
+n attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_1/a_2_6# attempt2_0/XOR2X1_1/gnd 2 20 163 80
+n attempt2_0/XOR2X1_1/a_13_43# attempt2_0/XOR2X1_1/gnd attempt2_0/XOR2X1_1/a_18_6# 2 20 172 80
+n attempt2_0/XOR2X1_1/a_2_6# attempt2_0/XOR2X1_1/a_18_6# attempt2_0/m1_133_n102# 2 20 177 80
+n attempt2_0/m1_n54_n42# attempt2_0/m1_133_n102# attempt2_0/XOR2X1_1/a_35_6# 2 20 189 80
+n attempt2_0/m1_71_n159# attempt2_0/XOR2X1_1/a_35_6# attempt2_0/XOR2X1_1/gnd 2 20 194 80
+n attempt2_0/m1_71_n159# attempt2_0/XOR2X1_1/gnd attempt2_0/XOR2X1_1/a_13_43# 2 20 203 80
+p attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/vdd 2 40 38 71
+p attempt2_0/m1_n64_n214# attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_17_74# 2 20 46 91
+p attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_17_74# attempt2_0/DFFPOSX1_2/a_22_6# 2 20 52 91
+p attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/a_22_6# attempt2_0/DFFPOSX1_2/a_31_74# 2 20 60 91
+p attempt2_0/DFFPOSX1_2/a_34_4# attempt2_0/DFFPOSX1_2/a_31_74# attempt2_0/DFFPOSX1_2/vdd 2 20 66 91
+p attempt2_0/DFFPOSX1_2/a_22_6# attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_34_4# 2 20 74 91
+p attempt2_0/DFFPOSX1_2/a_34_4# attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_61_74# 2 20 90 91
+p attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/a_61_74# attempt2_0/DFFPOSX1_2/a_66_6# 2 20 95 91
+p attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_66_6# attempt2_0/DFFPOSX1_2/a_76_84# 2 10 105 101
+p attempt2_0/m1_71_n159# attempt2_0/DFFPOSX1_2/a_76_84# attempt2_0/DFFPOSX1_2/vdd 2 10 110 101
+n attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/gnd 2 20 38 23
+p attempt2_0/DFFPOSX1_2/a_66_6# attempt2_0/DFFPOSX1_2/vdd attempt2_0/m1_71_n159# 2 40 118 71
+n attempt2_0/m1_n64_n214# attempt2_0/DFFPOSX1_2/gnd attempt2_0/DFFPOSX1_2/a_17_6# 2 10 46 23
+n attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/a_17_6# attempt2_0/DFFPOSX1_2/a_22_6# 2 10 51 23
+n attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_22_6# attempt2_0/DFFPOSX1_2/a_31_6# 2 10 60 23
+n attempt2_0/DFFPOSX1_2/a_34_4# attempt2_0/DFFPOSX1_2/a_31_6# attempt2_0/DFFPOSX1_2/gnd 2 10 65 23
+n attempt2_0/DFFPOSX1_2/a_22_6# attempt2_0/DFFPOSX1_2/gnd attempt2_0/DFFPOSX1_2/a_34_4# 2 10 74 23
+n attempt2_0/DFFPOSX1_2/a_34_4# attempt2_0/DFFPOSX1_2/gnd attempt2_0/DFFPOSX1_2/a_61_6# 2 10 90 23
+n attempt2_0/m1_n35_n168# attempt2_0/DFFPOSX1_2/a_61_6# attempt2_0/DFFPOSX1_2/a_66_6# 2 10 95 23
+n attempt2_0/DFFPOSX1_2/a_2_6# attempt2_0/DFFPOSX1_2/a_66_6# attempt2_0/DFFPOSX1_2/a_76_6# 2 10 105 23
+n attempt2_0/m1_71_n159# attempt2_0/DFFPOSX1_2/a_76_6# attempt2_0/DFFPOSX1_2/gnd 2 10 110 23
+n attempt2_0/DFFPOSX1_2/a_66_6# attempt2_0/DFFPOSX1_2/gnd attempt2_0/m1_71_n159# 2 20 118 23
+p attempt2_0/Input3 attempt2_0/OR2X1_0/a_2_54# attempt2_0/OR2X1_0/a_9_54# 2 40 265 247
+p attempt2_0/m1_133_15# attempt2_0/OR2X1_0/a_9_54# attempt2_0/OR2X1_0/vdd 2 40 270 247
+p attempt2_0/OR2X1_0/a_2_54# attempt2_0/OR2X1_0/vdd attempt2_1/Input3 2 20 278 267
+n attempt2_0/Input3 attempt2_0/OR2X1_0/gnd attempt2_0/OR2X1_0/a_2_54# 2 10 265 199
+n attempt2_0/m1_133_15# attempt2_0/OR2X1_0/a_2_54# attempt2_0/OR2X1_0/gnd 2 10 273 199
+n attempt2_0/OR2X1_0/a_2_54# attempt2_0/OR2X1_0/gnd attempt2_1/Input3 2 10 281 199
+p attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_0/a_2_6# attempt2_0/XOR2X1_0/vdd 2 40 163 246
+p attempt2_0/XOR2X1_0/a_13_43# attempt2_0/XOR2X1_0/vdd attempt2_0/XOR2X1_0/a_18_54# 2 40 172 246
+p attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_0/a_18_54# attempt2_0/m1_133_15# 2 40 177 246
+p attempt2_0/XOR2X1_0/a_2_6# attempt2_0/m1_133_15# attempt2_0/XOR2X1_0/a_35_54# 2 40 189 246
+p attempt2_0/m1_n64_n214# attempt2_0/XOR2X1_0/a_35_54# attempt2_0/XOR2X1_0/vdd 2 40 194 246
+p attempt2_0/m1_n64_n214# attempt2_0/XOR2X1_0/vdd attempt2_0/XOR2X1_0/a_13_43# 2 40 203 246
+n attempt2_0/m1_n54_n42# attempt2_0/XOR2X1_0/a_2_6# attempt2_0/XOR2X1_0/gnd 2 20 163 198
+n attempt2_0/XOR2X1_0/a_13_43# attempt2_0/XOR2X1_0/gnd attempt2_0/XOR2X1_0/a_18_6# 2 20 172 198
+n attempt2_0/XOR2X1_0/a_2_6# attempt2_0/XOR2X1_0/a_18_6# attempt2_0/m1_133_15# 2 20 177 198
+n attempt2_0/m1_n54_n42# attempt2_0/m1_133_15# attempt2_0/XOR2X1_0/a_35_6# 2 20 189 198
+n attempt2_0/m1_n64_n214# attempt2_0/XOR2X1_0/a_35_6# attempt2_0/XOR2X1_0/gnd 2 20 194 198
+n attempt2_0/m1_n64_n214# attempt2_0/XOR2X1_0/gnd attempt2_0/XOR2X1_0/a_13_43# 2 20 203 198
+p attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/vdd 2 40 38 188
+p attempt2_0/m1_n54_n42# attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_17_74# 2 20 46 208
+p attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_17_74# attempt2_0/DFFPOSX1_1/a_22_6# 2 20 52 208
+p attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/a_22_6# attempt2_0/DFFPOSX1_1/a_31_74# 2 20 60 208
+p attempt2_0/DFFPOSX1_1/a_34_4# attempt2_0/DFFPOSX1_1/a_31_74# attempt2_0/DFFPOSX1_1/vdd 2 20 66 208
+p attempt2_0/DFFPOSX1_1/a_22_6# attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_34_4# 2 20 74 208
+p attempt2_0/DFFPOSX1_1/a_34_4# attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_61_74# 2 20 90 208
+p attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/a_61_74# attempt2_0/DFFPOSX1_1/a_66_6# 2 20 95 208
+p attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_66_6# attempt2_0/DFFPOSX1_1/a_76_84# 2 10 105 218
+p attempt2_0/m1_n64_n214# attempt2_0/DFFPOSX1_1/a_76_84# attempt2_0/DFFPOSX1_1/vdd 2 10 110 218
+n attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/gnd 2 20 38 140
+p attempt2_0/DFFPOSX1_1/a_66_6# attempt2_0/DFFPOSX1_1/vdd attempt2_0/m1_n64_n214# 2 40 118 188
+n attempt2_0/m1_n54_n42# attempt2_0/DFFPOSX1_1/gnd attempt2_0/DFFPOSX1_1/a_17_6# 2 10 46 140
+n attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/a_17_6# attempt2_0/DFFPOSX1_1/a_22_6# 2 10 51 140
+n attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_22_6# attempt2_0/DFFPOSX1_1/a_31_6# 2 10 60 140
+n attempt2_0/DFFPOSX1_1/a_34_4# attempt2_0/DFFPOSX1_1/a_31_6# attempt2_0/DFFPOSX1_1/gnd 2 10 65 140
+n attempt2_0/DFFPOSX1_1/a_22_6# attempt2_0/DFFPOSX1_1/gnd attempt2_0/DFFPOSX1_1/a_34_4# 2 10 74 140
+n attempt2_0/DFFPOSX1_1/a_34_4# attempt2_0/DFFPOSX1_1/gnd attempt2_0/DFFPOSX1_1/a_61_6# 2 10 90 140
+n attempt2_0/m1_n31_n51# attempt2_0/DFFPOSX1_1/a_61_6# attempt2_0/DFFPOSX1_1/a_66_6# 2 10 95 140
+n attempt2_0/DFFPOSX1_1/a_2_6# attempt2_0/DFFPOSX1_1/a_66_6# attempt2_0/DFFPOSX1_1/a_76_6# 2 10 105 140
+n attempt2_0/m1_n64_n214# attempt2_0/DFFPOSX1_1/a_76_6# attempt2_0/DFFPOSX1_1/gnd 2 10 110 140
+n attempt2_0/DFFPOSX1_1/a_66_6# attempt2_0/DFFPOSX1_1/gnd attempt2_0/m1_n64_n214# 2 20 118 140
+p attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/vdd 2 40 38 305
+p attempt2_0/Input1 attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_17_74# 2 20 46 325
+p attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_17_74# attempt2_0/DFFPOSX1_0/a_22_6# 2 20 52 325
+p attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/a_22_6# attempt2_0/DFFPOSX1_0/a_31_74# 2 20 60 325
+p attempt2_0/DFFPOSX1_0/a_34_4# attempt2_0/DFFPOSX1_0/a_31_74# attempt2_0/DFFPOSX1_0/vdd 2 20 66 325
+p attempt2_0/DFFPOSX1_0/a_22_6# attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_34_4# 2 20 74 325
+p attempt2_0/DFFPOSX1_0/a_34_4# attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_61_74# 2 20 90 325
+p attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/a_61_74# attempt2_0/DFFPOSX1_0/a_66_6# 2 20 95 325
+p attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_66_6# attempt2_0/DFFPOSX1_0/a_76_84# 2 10 105 335
+p attempt2_0/m1_n54_n42# attempt2_0/DFFPOSX1_0/a_76_84# attempt2_0/DFFPOSX1_0/vdd 2 10 110 335
+n attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/gnd 2 20 38 257
+p attempt2_0/DFFPOSX1_0/a_66_6# attempt2_0/DFFPOSX1_0/vdd attempt2_0/m1_n54_n42# 2 40 118 305
+n attempt2_0/Input1 attempt2_0/DFFPOSX1_0/gnd attempt2_0/DFFPOSX1_0/a_17_6# 2 10 46 257
+n attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/a_17_6# attempt2_0/DFFPOSX1_0/a_22_6# 2 10 51 257
+n attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_22_6# attempt2_0/DFFPOSX1_0/a_31_6# 2 10 60 257
+n attempt2_0/DFFPOSX1_0/a_34_4# attempt2_0/DFFPOSX1_0/a_31_6# attempt2_0/DFFPOSX1_0/gnd 2 10 65 257
+n attempt2_0/DFFPOSX1_0/a_22_6# attempt2_0/DFFPOSX1_0/gnd attempt2_0/DFFPOSX1_0/a_34_4# 2 10 74 257
+n attempt2_0/DFFPOSX1_0/a_34_4# attempt2_0/DFFPOSX1_0/gnd attempt2_0/DFFPOSX1_0/a_61_6# 2 10 90 257
+n attempt2_0/m1_n29_66# attempt2_0/DFFPOSX1_0/a_61_6# attempt2_0/DFFPOSX1_0/a_66_6# 2 10 95 257
+n attempt2_0/DFFPOSX1_0/a_2_6# attempt2_0/DFFPOSX1_0/a_66_6# attempt2_0/DFFPOSX1_0/a_76_6# 2 10 105 257
+n attempt2_0/m1_n54_n42# attempt2_0/DFFPOSX1_0/a_76_6# attempt2_0/DFFPOSX1_0/gnd 2 10 110 257
+n attempt2_0/DFFPOSX1_0/a_66_6# attempt2_0/DFFPOSX1_0/gnd attempt2_0/m1_n54_n42# 2 20 118 257
+C attempt2_1/DFFPOSX1_1/vdd attempt2_1/m1_n31_n51# 2.41
+C attempt2_0/DFFPOSX1_1/vdd attempt2_0/m1_n31_n51# 2.41
+C attempt2_4/DFFPOSX1_2/vdd attempt2_4/m1_71_n159# 2.20
+C attempt2_4/DFFPOSX1_0/vdd attempt2_4/m1_n29_66# 2.41
+C attempt2_1/m1_71_n159# attempt2_1/DFFPOSX1_2/vdd 2.20
+C attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_34_4# 2.48
+C attempt2_0/m1_71_n159# attempt2_0/DFFPOSX1_2/vdd 2.20
+C attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_34_4# 2.48
+C attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_34_4# 2.48
+C attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_2_6# 4.88
+C attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_2_6# 4.88
+C attempt2_4/m1_n35_n168# attempt2_4/DFFPOSX1_2/vdd 2.41
+C attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_2_6# 4.88
+C attempt2_2/OR2X1_1/a_2_54# attempt2_2/OR2X1_1/vdd 2.08
+C attempt2_4/DFFPOSX1_2/a_22_6# attempt2_4/DFFPOSX1_2/vdd 2.40
+C attempt2_4/OR2X1_0/a_2_54# attempt2_4/OR2X1_0/vdd 2.08
+C attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_34_4# 2.48
+C attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_22_6# 2.40
+C attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_34_4# 2.48
+C attempt2_0/OR2X1_1/a_2_54# attempt2_0/OR2X1_1/vdd 2.08
+C attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_34_4# 2.48
+C attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_34_4# 2.48
+C attempt2_1/m1_n54_n42# attempt2_1/DFFPOSX1_0/vdd 2.20
+C attempt2_0/m1_n64_n214# attempt2_0/DFFPOSX1_1/vdd 2.20
+C attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_2_6# 4.88
+C attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_2_6# 4.88
+C attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_2_6# 4.88
+C attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_22_6# 2.40
+C attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_22_6# 2.40
+C attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_2_6# 4.88
+C attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_22_6# 2.40
+C attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_2_6# 4.88
+C attempt2_4/DFFPOSX1_1/vdd attempt2_4/DFFPOSX1_1/a_22_6# 2.40
+C attempt2_3/m1_n64_n214# attempt2_3/DFFPOSX1_1/vdd 2.20
+C attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_22_6# 2.40
+C attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_34_4# 2.48
+C attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_34_4# 2.48
+C attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_34_4# 2.48
+C attempt2_2/DFFPOSX1_1/vdd attempt2_2/DFFPOSX1_1/a_22_6# 2.40
+C attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_34_4# 2.48
+C attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_2_6# 4.88
+C attempt2_4/m1_n54_n42# attempt2_4/DFFPOSX1_0/vdd 2.20
+C attempt2_4/OR2X1_1/a_2_54# attempt2_4/OR2X1_1/vdd 2.08
+C attempt2_0/m1_n54_n42# attempt2_0/DFFPOSX1_0/vdd 2.20
+C attempt2_4/DFFPOSX1_0/vdd attempt2_4/DFFPOSX1_0/a_22_6# 2.40
+C attempt2_3/DFFPOSX1_0/vdd attempt2_3/m1_n29_66# 2.41
+C attempt2_2/OR2X1_0/vdd attempt2_2/OR2X1_0/a_2_54# 2.08
+C attempt2_2/m1_n64_n214# attempt2_2/DFFPOSX1_1/vdd 2.20
+C attempt2_1/DFFPOSX1_2/vdd attempt2_1/DFFPOSX1_2/a_22_6# 2.40
+C attempt2_0/DFFPOSX1_2/vdd attempt2_0/DFFPOSX1_2/a_22_6# 2.40
+C attempt2_2/m1_71_n159# attempt2_2/DFFPOSX1_2/vdd 2.20
+C attempt2_2/DFFPOSX1_0/vdd attempt2_2/m1_n29_66# 2.41
+C attempt2_3/DFFPOSX1_1/vdd attempt2_3/m1_n31_n51# 2.41
+C attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_34_4# 2.48
+C attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_2_6# 4.88
+C attempt2_4/m1_n64_n214# attempt2_4/DFFPOSX1_1/vdd 2.20
+C attempt2_2/DFFPOSX1_2/vdd attempt2_2/m1_n35_n168# 2.41
+C attempt2_1/OR2X1_0/vdd attempt2_1/OR2X1_0/a_2_54# 2.08
+C attempt2_1/DFFPOSX1_1/vdd attempt2_1/DFFPOSX1_1/a_22_6# 2.40
+C attempt2_0/DFFPOSX1_1/vdd attempt2_0/DFFPOSX1_1/a_22_6# 2.40
+C attempt2_2/DFFPOSX1_1/vdd attempt2_2/m1_n31_n51# 2.41
+C attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_34_4# 2.48
+C attempt2_3/DFFPOSX1_2/vdd attempt2_3/DFFPOSX1_2/a_22_6# 2.40
+C attempt2_3/OR2X1_1/a_2_54# attempt2_3/OR2X1_1/vdd 2.08
+C attempt2_0/DFFPOSX1_0/vdd attempt2_0/m1_n29_66# 2.41
+C attempt2_0/DFFPOSX1_0/vdd attempt2_0/DFFPOSX1_0/a_22_6# 2.40
+C attempt2_4/DFFPOSX1_2/a_34_4# attempt2_4/DFFPOSX1_2/vdd 2.48
+C attempt2_3/OR2X1_0/vdd attempt2_3/OR2X1_0/a_2_54# 2.08
+C attempt2_3/m1_n54_n42# attempt2_3/DFFPOSX1_0/vdd 2.20
+C attempt2_1/DFFPOSX1_2/vdd attempt2_1/m1_n35_n168# 2.41
+C attempt2_0/DFFPOSX1_2/vdd attempt2_0/m1_n35_n168# 2.41
+C attempt2_3/DFFPOSX1_0/vdd attempt2_3/DFFPOSX1_0/a_2_6# 4.88
+C attempt2_3/DFFPOSX1_1/vdd attempt2_3/DFFPOSX1_1/a_2_6# 4.88
+C attempt2_3/DFFPOSX1_2/vdd attempt2_3/m1_71_n159# 2.20
+C attempt2_0/OR2X1_0/vdd attempt2_0/OR2X1_0/a_2_54# 2.08
+C attempt2_1/OR2X1_1/a_2_54# attempt2_1/OR2X1_1/vdd 2.08
+C attempt2_3/DFFPOSX1_2/vdd attempt2_3/m1_n35_n168# 2.41
+C attempt2_4/DFFPOSX1_2/a_2_6# attempt2_4/DFFPOSX1_2/vdd 4.88
+C attempt2_4/DFFPOSX1_1/vdd attempt2_4/m1_n31_n51# 2.41
+C attempt2_2/m1_n54_n42# attempt2_2/DFFPOSX1_0/vdd 2.20
+C attempt2_1/m1_n64_n214# attempt2_1/DFFPOSX1_1/vdd 2.20
+C attempt2_2/DFFPOSX1_2/vdd attempt2_2/DFFPOSX1_2/a_2_6# 4.88
+C attempt2_1/DFFPOSX1_0/vdd attempt2_1/DFFPOSX1_0/a_34_4# 2.48
+C attempt2_2/DFFPOSX1_0/vdd attempt2_2/DFFPOSX1_0/a_2_6# 4.88
+C attempt2_1/DFFPOSX1_0/vdd attempt2_1/m1_n29_66# 2.41
+R attempt2_0/DFFPOSX1_0/a_76_6# 274
+R attempt2_0/DFFPOSX1_0/a_61_6# 274
+R attempt2_0/DFFPOSX1_0/a_31_6# 274
+R attempt2_0/DFFPOSX1_0/a_17_6# 274
+C attempt2_0/DFFPOSX1_0/gnd GND 6.90
+R attempt2_0/DFFPOSX1_0/gnd 3850
+R attempt2_0/DFFPOSX1_0/a_76_84# 351
+R attempt2_0/DFFPOSX1_0/a_61_74# 701
+R attempt2_0/DFFPOSX1_0/a_31_74# 526
+R attempt2_0/DFFPOSX1_0/a_17_74# 526
+C attempt2_0/DFFPOSX1_0/a_66_6# GND 2.10
+R attempt2_0/DFFPOSX1_0/a_66_6# 1422
+R attempt2_0/DFFPOSX1_0/a_22_6# 1483
+R attempt2_0/DFFPOSX1_0/a_34_4# 2843
+C attempt2_0/DFFPOSX1_0/a_2_6# GND 2.87
+R attempt2_0/DFFPOSX1_0/a_2_6# 3550
+C attempt2_0/Input1 GND 3.01
+R attempt2_0/Input1 1013
+C attempt2_0/m1_n29_66# GND 5.44
+R attempt2_0/m1_n29_66# 2930
+C attempt2_0/DFFPOSX1_0/vdd GND 22.98
+R attempt2_0/DFFPOSX1_0/vdd 6492
+R attempt2_0/DFFPOSX1_1/a_76_6# 274
+R attempt2_0/DFFPOSX1_1/a_61_6# 274
+R attempt2_0/DFFPOSX1_1/a_31_6# 274
+R attempt2_0/DFFPOSX1_1/a_17_6# 274
+C attempt2_0/DFFPOSX1_1/gnd GND 6.90
+R attempt2_0/DFFPOSX1_1/gnd 3850
+R attempt2_0/DFFPOSX1_1/a_76_84# 351
+R attempt2_0/DFFPOSX1_1/a_61_74# 701
+R attempt2_0/DFFPOSX1_1/a_31_74# 526
+R attempt2_0/DFFPOSX1_1/a_17_74# 526
+C attempt2_0/DFFPOSX1_1/a_66_6# GND 2.10
+R attempt2_0/DFFPOSX1_1/a_66_6# 1422
+R attempt2_0/DFFPOSX1_1/a_22_6# 1483
+R attempt2_0/DFFPOSX1_1/a_34_4# 2843
+C attempt2_0/DFFPOSX1_1/a_2_6# GND 2.87
+R attempt2_0/DFFPOSX1_1/a_2_6# 3550
+C attempt2_0/m1_n31_n51# GND 5.54
+R attempt2_0/m1_n31_n51# 2930
+C attempt2_0/DFFPOSX1_1/vdd GND 22.98
+R attempt2_0/DFFPOSX1_1/vdd 6492
+R attempt2_0/XOR2X1_0/a_35_6# 548
+R attempt2_0/XOR2X1_0/a_18_6# 548
+C attempt2_0/XOR2X1_0/gnd GND 3.69
+R attempt2_0/XOR2X1_0/gnd 2149
+R attempt2_0/XOR2X1_0/a_35_54# 1403
+R attempt2_0/XOR2X1_0/a_18_54# 1403
+C attempt2_0/m1_n64_n214# GND 53.33
+R attempt2_0/m1_n64_n214# 5277
+C attempt2_0/XOR2X1_0/a_2_6# GND 3.28
+R attempt2_0/XOR2X1_0/a_2_6# 2264
+C attempt2_0/XOR2X1_0/a_13_43# GND 2.84
+R attempt2_0/XOR2X1_0/a_13_43# 2220
+C attempt2_0/m1_n54_n42# GND 32.43
+R attempt2_0/m1_n54_n42# 7765
+C attempt2_0/XOR2X1_0/vdd GND 14.77
+R attempt2_0/XOR2X1_0/vdd 3610
+C attempt2_0/OR2X1_0/gnd GND 2.76
+R attempt2_0/OR2X1_0/gnd 1156
+R attempt2_0/OR2X1_0/a_9_54# 1403
+C attempt2_0/OR2X1_0/a_2_54# GND 2.54
+R attempt2_0/OR2X1_0/a_2_54# 2027
+C attempt2_0/m1_133_15# GND 3.40
+R attempt2_0/m1_133_15# 1634
+C attempt2_0/Input3 GND 2.30
+R attempt2_0/Input3 1013
+C attempt2_0/OR2X1_0/vdd GND 9.85
+R attempt2_0/OR2X1_0/vdd 2227
+R attempt2_0/DFFPOSX1_2/a_76_6# 274
+R attempt2_0/DFFPOSX1_2/a_61_6# 274
+R attempt2_0/DFFPOSX1_2/a_31_6# 274
+R attempt2_0/DFFPOSX1_2/a_17_6# 274
+C attempt2_0/DFFPOSX1_2/gnd GND 6.90
+R attempt2_0/DFFPOSX1_2/gnd 3850
+R attempt2_0/DFFPOSX1_2/a_76_84# 351
+R attempt2_0/DFFPOSX1_2/a_61_74# 701
+R attempt2_0/DFFPOSX1_2/a_31_74# 526
+R attempt2_0/DFFPOSX1_2/a_17_74# 526
+C attempt2_0/DFFPOSX1_2/a_66_6# GND 2.10
+R attempt2_0/DFFPOSX1_2/a_66_6# 1422
+R attempt2_0/DFFPOSX1_2/a_22_6# 1483
+R attempt2_0/DFFPOSX1_2/a_34_4# 2843
+C attempt2_0/DFFPOSX1_2/a_2_6# GND 2.87
+R attempt2_0/DFFPOSX1_2/a_2_6# 3550
+C attempt2_0/m1_n35_n168# GND 5.75
+R attempt2_0/m1_n35_n168# 2930
+C attempt2_0/DFFPOSX1_2/vdd GND 22.98
+R attempt2_0/DFFPOSX1_2/vdd 6492
+R attempt2_0/XOR2X1_1/a_35_6# 548
+R attempt2_0/XOR2X1_1/a_18_6# 548
+C attempt2_0/XOR2X1_1/gnd GND 3.69
+R attempt2_0/XOR2X1_1/gnd 2149
+R attempt2_0/XOR2X1_1/a_35_54# 1403
+R attempt2_0/m1_133_n102# 1602
+R attempt2_0/XOR2X1_1/a_18_54# 1403
+C attempt2_0/m1_71_n159# GND 10.24
+R attempt2_0/m1_71_n159# 4213
+C attempt2_0/XOR2X1_1/a_2_6# GND 3.28
+R attempt2_0/XOR2X1_1/a_2_6# 2264
+C attempt2_0/XOR2X1_1/a_13_43# GND 2.84
+R attempt2_0/XOR2X1_1/a_13_43# 2220
+C attempt2_0/XOR2X1_1/vdd GND 14.77
+R attempt2_0/XOR2X1_1/vdd 3610
+C attempt2_0/OR2X1_1/gnd GND 2.76
+R attempt2_0/OR2X1_1/gnd 1156
+R attempt2_0/OR2X1_1/a_9_54# 1403
+C attempt2_0/OR2X1_1/a_2_54# GND 2.54
+R attempt2_0/OR2X1_1/a_2_54# 2027
+R attempt2_0/Input2 1045
+C attempt2_0/OR2X1_1/vdd GND 9.85
+R attempt2_0/OR2X1_1/vdd 2227
+R attempt2_1/DFFPOSX1_0/a_76_6# 274
+R attempt2_1/DFFPOSX1_0/a_61_6# 274
+R attempt2_1/DFFPOSX1_0/a_31_6# 274
+R attempt2_1/DFFPOSX1_0/a_17_6# 274
+C attempt2_1/DFFPOSX1_0/gnd GND 6.90
+R attempt2_1/DFFPOSX1_0/gnd 3850
+R attempt2_1/DFFPOSX1_0/a_76_84# 351
+R attempt2_1/DFFPOSX1_0/a_61_74# 701
+R attempt2_1/DFFPOSX1_0/a_31_74# 526
+R attempt2_1/DFFPOSX1_0/a_17_74# 526
+C attempt2_1/DFFPOSX1_0/a_66_6# GND 2.10
+R attempt2_1/DFFPOSX1_0/a_66_6# 1422
+R attempt2_1/DFFPOSX1_0/a_22_6# 1483
+R attempt2_1/DFFPOSX1_0/a_34_4# 2843
+C attempt2_1/DFFPOSX1_0/a_2_6# GND 2.87
+R attempt2_1/DFFPOSX1_0/a_2_6# 3550
+C attempt2_1/Input1 GND 3.01
+R attempt2_1/Input1 1013
+C attempt2_1/m1_n29_66# GND 5.44
+R attempt2_1/m1_n29_66# 2930
+C attempt2_1/DFFPOSX1_0/vdd GND 22.98
+R attempt2_1/DFFPOSX1_0/vdd 6492
+R attempt2_1/DFFPOSX1_1/a_76_6# 274
+R attempt2_1/DFFPOSX1_1/a_61_6# 274
+R attempt2_1/DFFPOSX1_1/a_31_6# 274
+R attempt2_1/DFFPOSX1_1/a_17_6# 274
+C attempt2_1/DFFPOSX1_1/gnd GND 6.90
+R attempt2_1/DFFPOSX1_1/gnd 3850
+R attempt2_1/DFFPOSX1_1/a_76_84# 351
+R attempt2_1/DFFPOSX1_1/a_61_74# 701
+R attempt2_1/DFFPOSX1_1/a_31_74# 526
+R attempt2_1/DFFPOSX1_1/a_17_74# 526
+C attempt2_1/DFFPOSX1_1/a_66_6# GND 2.10
+R attempt2_1/DFFPOSX1_1/a_66_6# 1422
+R attempt2_1/DFFPOSX1_1/a_22_6# 1483
+R attempt2_1/DFFPOSX1_1/a_34_4# 2843
+C attempt2_1/DFFPOSX1_1/a_2_6# GND 2.87
+R attempt2_1/DFFPOSX1_1/a_2_6# 3550
+C attempt2_1/m1_n31_n51# GND 5.54
+R attempt2_1/m1_n31_n51# 2930
+C attempt2_1/DFFPOSX1_1/vdd GND 22.98
+R attempt2_1/DFFPOSX1_1/vdd 6492
+R attempt2_1/XOR2X1_0/a_35_6# 548
+R attempt2_1/XOR2X1_0/a_18_6# 548
+C attempt2_1/XOR2X1_0/gnd GND 3.69
+R attempt2_1/XOR2X1_0/gnd 2149
+R attempt2_1/XOR2X1_0/a_35_54# 1403
+R attempt2_1/XOR2X1_0/a_18_54# 1403
+C attempt2_1/m1_n64_n214# GND 53.33
+R attempt2_1/m1_n64_n214# 5277
+C attempt2_1/XOR2X1_0/a_2_6# GND 3.28
+R attempt2_1/XOR2X1_0/a_2_6# 2264
+C attempt2_1/XOR2X1_0/a_13_43# GND 2.84
+R attempt2_1/XOR2X1_0/a_13_43# 2220
+C attempt2_1/m1_n54_n42# GND 32.43
+R attempt2_1/m1_n54_n42# 7765
+C attempt2_1/XOR2X1_0/vdd GND 14.77
+R attempt2_1/XOR2X1_0/vdd 3610
+C attempt2_1/OR2X1_0/gnd GND 2.76
+R attempt2_1/OR2X1_0/gnd 1156
+R attempt2_1/OR2X1_0/a_9_54# 1403
+C attempt2_1/OR2X1_0/a_2_54# GND 2.54
+R attempt2_1/OR2X1_0/a_2_54# 2027
+C attempt2_1/m1_133_15# GND 3.40
+R attempt2_1/m1_133_15# 1634
+C attempt2_1/Input3 GND 8.69
+R attempt2_1/Input3 1604
+C attempt2_1/OR2X1_0/vdd GND 9.85
+R attempt2_1/OR2X1_0/vdd 2227
+R attempt2_1/DFFPOSX1_2/a_76_6# 274
+R attempt2_1/DFFPOSX1_2/a_61_6# 274
+R attempt2_1/DFFPOSX1_2/a_31_6# 274
+R attempt2_1/DFFPOSX1_2/a_17_6# 274
+C attempt2_1/DFFPOSX1_2/gnd GND 6.90
+R attempt2_1/DFFPOSX1_2/gnd 3850
+R attempt2_1/DFFPOSX1_2/a_76_84# 351
+R attempt2_1/DFFPOSX1_2/a_61_74# 701
+R attempt2_1/DFFPOSX1_2/a_31_74# 526
+R attempt2_1/DFFPOSX1_2/a_17_74# 526
+C attempt2_1/DFFPOSX1_2/a_66_6# GND 2.10
+R attempt2_1/DFFPOSX1_2/a_66_6# 1422
+R attempt2_1/DFFPOSX1_2/a_22_6# 1483
+R attempt2_1/DFFPOSX1_2/a_34_4# 2843
+C attempt2_1/DFFPOSX1_2/a_2_6# GND 2.87
+R attempt2_1/DFFPOSX1_2/a_2_6# 3550
+C attempt2_1/m1_n35_n168# GND 5.75
+R attempt2_1/m1_n35_n168# 2930
+C attempt2_1/DFFPOSX1_2/vdd GND 22.98
+R attempt2_1/DFFPOSX1_2/vdd 6492
+R attempt2_1/XOR2X1_1/a_35_6# 548
+R attempt2_1/XOR2X1_1/a_18_6# 548
+C attempt2_1/XOR2X1_1/gnd GND 3.69
+R attempt2_1/XOR2X1_1/gnd 2149
+R attempt2_1/XOR2X1_1/a_35_54# 1403
+R attempt2_1/m1_133_n102# 1602
+R attempt2_1/XOR2X1_1/a_18_54# 1403
+C attempt2_1/m1_71_n159# GND 10.24
+R attempt2_1/m1_71_n159# 4213
+C attempt2_1/XOR2X1_1/a_2_6# GND 3.28
+R attempt2_1/XOR2X1_1/a_2_6# 2264
+C attempt2_1/XOR2X1_1/a_13_43# GND 2.84
+R attempt2_1/XOR2X1_1/a_13_43# 2220
+C attempt2_1/XOR2X1_1/vdd GND 14.77
+R attempt2_1/XOR2X1_1/vdd 3610
+C attempt2_1/OR2X1_1/gnd GND 2.76
+R attempt2_1/OR2X1_1/gnd 1156
+R attempt2_1/OR2X1_1/a_9_54# 1403
+C attempt2_1/OR2X1_1/a_2_54# GND 2.54
+R attempt2_1/OR2X1_1/a_2_54# 2027
+C attempt2_1/Input2 GND 37.23
+R attempt2_1/Input2 1640
+C attempt2_1/OR2X1_1/vdd GND 9.85
+R attempt2_1/OR2X1_1/vdd 2227
+R attempt2_2/DFFPOSX1_0/a_76_6# 274
+R attempt2_2/DFFPOSX1_0/a_61_6# 274
+R attempt2_2/DFFPOSX1_0/a_31_6# 274
+R attempt2_2/DFFPOSX1_0/a_17_6# 274
+C attempt2_2/DFFPOSX1_0/gnd GND 6.90
+R attempt2_2/DFFPOSX1_0/gnd 3850
+R attempt2_2/DFFPOSX1_0/a_76_84# 351
+R attempt2_2/DFFPOSX1_0/a_61_74# 701
+R attempt2_2/DFFPOSX1_0/a_31_74# 526
+R attempt2_2/DFFPOSX1_0/a_17_74# 526
+C attempt2_2/DFFPOSX1_0/a_66_6# GND 2.10
+R attempt2_2/DFFPOSX1_0/a_66_6# 1422
+R attempt2_2/DFFPOSX1_0/a_22_6# 1483
+R attempt2_2/DFFPOSX1_0/a_34_4# 2843
+C attempt2_2/DFFPOSX1_0/a_2_6# GND 2.87
+R attempt2_2/DFFPOSX1_0/a_2_6# 3550
+C attempt2_2/Input1 GND 3.01
+R attempt2_2/Input1 1013
+C attempt2_2/m1_n29_66# GND 5.44
+R attempt2_2/m1_n29_66# 2930
+C attempt2_2/DFFPOSX1_0/vdd GND 22.98
+R attempt2_2/DFFPOSX1_0/vdd 6492
+R attempt2_2/DFFPOSX1_1/a_76_6# 274
+R attempt2_2/DFFPOSX1_1/a_61_6# 274
+R attempt2_2/DFFPOSX1_1/a_31_6# 274
+R attempt2_2/DFFPOSX1_1/a_17_6# 274
+C attempt2_2/DFFPOSX1_1/gnd GND 6.90
+R attempt2_2/DFFPOSX1_1/gnd 3850
+R attempt2_2/DFFPOSX1_1/a_76_84# 351
+R attempt2_2/DFFPOSX1_1/a_61_74# 701
+R attempt2_2/DFFPOSX1_1/a_31_74# 526
+R attempt2_2/DFFPOSX1_1/a_17_74# 526
+C attempt2_2/DFFPOSX1_1/a_66_6# GND 2.10
+R attempt2_2/DFFPOSX1_1/a_66_6# 1422
+R attempt2_2/DFFPOSX1_1/a_22_6# 1483
+R attempt2_2/DFFPOSX1_1/a_34_4# 2843
+C attempt2_2/DFFPOSX1_1/a_2_6# GND 2.87
+R attempt2_2/DFFPOSX1_1/a_2_6# 3550
+C attempt2_2/m1_n31_n51# GND 5.54
+R attempt2_2/m1_n31_n51# 2930
+C attempt2_2/DFFPOSX1_1/vdd GND 22.98
+R attempt2_2/DFFPOSX1_1/vdd 6492
+R attempt2_2/XOR2X1_0/a_35_6# 548
+R attempt2_2/XOR2X1_0/a_18_6# 548
+C attempt2_2/XOR2X1_0/gnd GND 3.69
+R attempt2_2/XOR2X1_0/gnd 2149
+R attempt2_2/XOR2X1_0/a_35_54# 1403
+R attempt2_2/XOR2X1_0/a_18_54# 1403
+C attempt2_2/m1_n64_n214# GND 53.33
+R attempt2_2/m1_n64_n214# 5277
+C attempt2_2/XOR2X1_0/a_2_6# GND 3.28
+R attempt2_2/XOR2X1_0/a_2_6# 2264
+C attempt2_2/XOR2X1_0/a_13_43# GND 2.84
+R attempt2_2/XOR2X1_0/a_13_43# 2220
+C attempt2_2/m1_n54_n42# GND 32.43
+R attempt2_2/m1_n54_n42# 7765
+C attempt2_2/XOR2X1_0/vdd GND 14.77
+R attempt2_2/XOR2X1_0/vdd 3610
+C attempt2_2/OR2X1_0/gnd GND 2.76
+R attempt2_2/OR2X1_0/gnd 1156
+R attempt2_2/OR2X1_0/a_9_54# 1403
+C attempt2_2/OR2X1_0/a_2_54# GND 2.54
+R attempt2_2/OR2X1_0/a_2_54# 2027
+C attempt2_2/m1_133_15# GND 3.40
+R attempt2_2/m1_133_15# 1634
+R attempt2_2/Input3 1604
+C attempt2_2/OR2X1_0/vdd GND 9.85
+R attempt2_2/OR2X1_0/vdd 2227
+R attempt2_2/DFFPOSX1_2/a_76_6# 274
+R attempt2_2/DFFPOSX1_2/a_61_6# 274
+R attempt2_2/DFFPOSX1_2/a_31_6# 274
+R attempt2_2/DFFPOSX1_2/a_17_6# 274
+C attempt2_2/DFFPOSX1_2/gnd GND 6.90
+R attempt2_2/DFFPOSX1_2/gnd 3850
+R attempt2_2/DFFPOSX1_2/a_76_84# 351
+R attempt2_2/DFFPOSX1_2/a_61_74# 701
+R attempt2_2/DFFPOSX1_2/a_31_74# 526
+R attempt2_2/DFFPOSX1_2/a_17_74# 526
+C attempt2_2/DFFPOSX1_2/a_66_6# GND 2.10
+R attempt2_2/DFFPOSX1_2/a_66_6# 1422
+R attempt2_2/DFFPOSX1_2/a_22_6# 1483
+R attempt2_2/DFFPOSX1_2/a_34_4# 2843
+C attempt2_2/DFFPOSX1_2/a_2_6# GND 2.87
+R attempt2_2/DFFPOSX1_2/a_2_6# 3550
+C attempt2_2/m1_n35_n168# GND 5.75
+R attempt2_2/m1_n35_n168# 2930
+C attempt2_2/DFFPOSX1_2/vdd GND 22.98
+R attempt2_2/DFFPOSX1_2/vdd 6492
+R attempt2_2/XOR2X1_1/a_35_6# 548
+R attempt2_2/XOR2X1_1/a_18_6# 548
+C attempt2_2/XOR2X1_1/gnd GND 3.69
+R attempt2_2/XOR2X1_1/gnd 2149
+R attempt2_2/XOR2X1_1/a_35_54# 1403
+R attempt2_2/m1_133_n102# 1602
+R attempt2_2/XOR2X1_1/a_18_54# 1403
+C attempt2_2/m1_71_n159# GND 10.24
+R attempt2_2/m1_71_n159# 4213
+C attempt2_2/XOR2X1_1/a_2_6# GND 3.28
+R attempt2_2/XOR2X1_1/a_2_6# 2264
+C attempt2_2/XOR2X1_1/a_13_43# GND 2.84
+R attempt2_2/XOR2X1_1/a_13_43# 2220
+C attempt2_2/XOR2X1_1/vdd GND 14.77
+R attempt2_2/XOR2X1_1/vdd 3610
+C attempt2_2/OR2X1_1/gnd GND 2.76
+R attempt2_2/OR2X1_1/gnd 1156
+R attempt2_2/OR2X1_1/a_9_54# 1403
+C attempt2_2/OR2X1_1/a_2_54# GND 2.54
+R attempt2_2/OR2X1_1/a_2_54# 2027
+C attempt2_2/Input2 GND 39.39
+R attempt2_2/Input2 1639
+C attempt2_2/OR2X1_1/vdd GND 9.85
+R attempt2_2/OR2X1_1/vdd 2227
+R attempt2_3/DFFPOSX1_0/a_76_6# 274
+R attempt2_3/DFFPOSX1_0/a_61_6# 274
+R attempt2_3/DFFPOSX1_0/a_31_6# 274
+R attempt2_3/DFFPOSX1_0/a_17_6# 274
+C attempt2_3/DFFPOSX1_0/gnd GND 6.90
+R attempt2_3/DFFPOSX1_0/gnd 3850
+R attempt2_3/DFFPOSX1_0/a_76_84# 351
+R attempt2_3/DFFPOSX1_0/a_61_74# 701
+R attempt2_3/DFFPOSX1_0/a_31_74# 526
+R attempt2_3/DFFPOSX1_0/a_17_74# 526
+C attempt2_3/DFFPOSX1_0/a_66_6# GND 2.10
+R attempt2_3/DFFPOSX1_0/a_66_6# 1422
+R attempt2_3/DFFPOSX1_0/a_22_6# 1483
+R attempt2_3/DFFPOSX1_0/a_34_4# 2843
+C attempt2_3/DFFPOSX1_0/a_2_6# GND 2.87
+R attempt2_3/DFFPOSX1_0/a_2_6# 3550
+C attempt2_3/Input1 GND 3.01
+R attempt2_3/Input1 1013
+C attempt2_3/m1_n29_66# GND 5.44
+R attempt2_3/m1_n29_66# 2930
+C attempt2_3/DFFPOSX1_0/vdd GND 22.98
+R attempt2_3/DFFPOSX1_0/vdd 6492
+R attempt2_3/DFFPOSX1_1/a_76_6# 274
+R attempt2_3/DFFPOSX1_1/a_61_6# 274
+R attempt2_3/DFFPOSX1_1/a_31_6# 274
+R attempt2_3/DFFPOSX1_1/a_17_6# 274
+C attempt2_3/DFFPOSX1_1/gnd GND 6.90
+R attempt2_3/DFFPOSX1_1/gnd 3850
+R attempt2_3/DFFPOSX1_1/a_76_84# 351
+R attempt2_3/DFFPOSX1_1/a_61_74# 701
+R attempt2_3/DFFPOSX1_1/a_31_74# 526
+R attempt2_3/DFFPOSX1_1/a_17_74# 526
+C attempt2_3/DFFPOSX1_1/a_66_6# GND 2.10
+R attempt2_3/DFFPOSX1_1/a_66_6# 1422
+R attempt2_3/DFFPOSX1_1/a_22_6# 1483
+R attempt2_3/DFFPOSX1_1/a_34_4# 2843
+C attempt2_3/DFFPOSX1_1/a_2_6# GND 2.87
+R attempt2_3/DFFPOSX1_1/a_2_6# 3550
+C attempt2_3/m1_n31_n51# GND 5.54
+R attempt2_3/m1_n31_n51# 2930
+C attempt2_3/DFFPOSX1_1/vdd GND 22.98
+R attempt2_3/DFFPOSX1_1/vdd 6492
+R attempt2_3/XOR2X1_0/a_35_6# 548
+R attempt2_3/XOR2X1_0/a_18_6# 548
+C attempt2_3/XOR2X1_0/gnd GND 3.69
+R attempt2_3/XOR2X1_0/gnd 2149
+R attempt2_3/XOR2X1_0/a_35_54# 1403
+R attempt2_3/XOR2X1_0/a_18_54# 1403
+C attempt2_3/m1_n64_n214# GND 53.33
+R attempt2_3/m1_n64_n214# 5277
+C attempt2_3/XOR2X1_0/a_2_6# GND 3.28
+R attempt2_3/XOR2X1_0/a_2_6# 2264
+C attempt2_3/XOR2X1_0/a_13_43# GND 2.84
+R attempt2_3/XOR2X1_0/a_13_43# 2220
+C attempt2_3/m1_n54_n42# GND 32.43
+R attempt2_3/m1_n54_n42# 7765
+C attempt2_3/XOR2X1_0/vdd GND 14.77
+R attempt2_3/XOR2X1_0/vdd 3610
+C attempt2_3/OR2X1_0/gnd GND 2.76
+R attempt2_3/OR2X1_0/gnd 1156
+R attempt2_3/OR2X1_0/a_9_54# 1403
+C attempt2_3/OR2X1_0/a_2_54# GND 2.54
+R attempt2_3/OR2X1_0/a_2_54# 2027
+C attempt2_3/m1_133_15# GND 3.40
+R attempt2_3/m1_133_15# 1634
+C attempt2_3/Input3 GND 41.07
+R attempt2_3/Input3 1606
+C attempt2_3/OR2X1_0/vdd GND 9.85
+R attempt2_3/OR2X1_0/vdd 2227
+R attempt2_3/DFFPOSX1_2/a_76_6# 274
+R attempt2_3/DFFPOSX1_2/a_61_6# 274
+R attempt2_3/DFFPOSX1_2/a_31_6# 274
+R attempt2_3/DFFPOSX1_2/a_17_6# 274
+C attempt2_3/DFFPOSX1_2/gnd GND 6.90
+R attempt2_3/DFFPOSX1_2/gnd 3850
+R attempt2_3/DFFPOSX1_2/a_76_84# 351
+R attempt2_3/DFFPOSX1_2/a_61_74# 701
+R attempt2_3/DFFPOSX1_2/a_31_74# 526
+R attempt2_3/DFFPOSX1_2/a_17_74# 526
+C attempt2_3/DFFPOSX1_2/a_66_6# GND 2.10
+R attempt2_3/DFFPOSX1_2/a_66_6# 1422
+R attempt2_3/DFFPOSX1_2/a_22_6# 1483
+R attempt2_3/DFFPOSX1_2/a_34_4# 2843
+C attempt2_3/DFFPOSX1_2/a_2_6# GND 2.87
+R attempt2_3/DFFPOSX1_2/a_2_6# 3550
+C attempt2_3/m1_n35_n168# GND 5.75
+R attempt2_3/m1_n35_n168# 2930
+C attempt2_3/DFFPOSX1_2/vdd GND 22.98
+R attempt2_3/DFFPOSX1_2/vdd 6492
+R attempt2_3/XOR2X1_1/a_35_6# 548
+R attempt2_3/XOR2X1_1/a_18_6# 548
+C attempt2_3/XOR2X1_1/gnd GND 3.69
+R attempt2_3/XOR2X1_1/gnd 2149
+R attempt2_3/XOR2X1_1/a_35_54# 1403
+R attempt2_3/m1_133_n102# 1602
+R attempt2_3/XOR2X1_1/a_18_54# 1403
+C attempt2_3/m1_71_n159# GND 10.24
+R attempt2_3/m1_71_n159# 4213
+C attempt2_3/XOR2X1_1/a_2_6# GND 3.28
+R attempt2_3/XOR2X1_1/a_2_6# 2264
+C attempt2_3/XOR2X1_1/a_13_43# GND 2.84
+R attempt2_3/XOR2X1_1/a_13_43# 2220
+C attempt2_3/XOR2X1_1/vdd GND 14.77
+R attempt2_3/XOR2X1_1/vdd 3610
+C attempt2_3/OR2X1_1/gnd GND 2.76
+R attempt2_3/OR2X1_1/gnd 1156
+R attempt2_3/OR2X1_1/a_9_54# 1403
+C attempt2_3/OR2X1_1/a_2_54# GND 2.54
+R attempt2_3/OR2X1_1/a_2_54# 2027
+C attempt2_3/Input2 GND 33.76
+R attempt2_3/Input2 1648
+C attempt2_3/OR2X1_1/vdd GND 9.85
+R attempt2_3/OR2X1_1/vdd 2227
+R attempt2_4/DFFPOSX1_0/a_76_6# 274
+R attempt2_4/DFFPOSX1_0/a_61_6# 274
+R attempt2_4/DFFPOSX1_0/a_31_6# 274
+R attempt2_4/DFFPOSX1_0/a_17_6# 274
+C attempt2_4/DFFPOSX1_0/gnd GND 6.90
+R attempt2_4/DFFPOSX1_0/gnd 3850
+R attempt2_4/DFFPOSX1_0/a_76_84# 351
+R attempt2_4/DFFPOSX1_0/a_61_74# 701
+R attempt2_4/DFFPOSX1_0/a_31_74# 526
+R attempt2_4/DFFPOSX1_0/a_17_74# 526
+C attempt2_4/DFFPOSX1_0/a_66_6# GND 2.10
+R attempt2_4/DFFPOSX1_0/a_66_6# 1422
+R attempt2_4/DFFPOSX1_0/a_22_6# 1483
+R attempt2_4/DFFPOSX1_0/a_34_4# 2843
+C attempt2_4/DFFPOSX1_0/a_2_6# GND 2.87
+R attempt2_4/DFFPOSX1_0/a_2_6# 3550
+C attempt2_4/Input1 GND 3.01
+R attempt2_4/Input1 1013
+C attempt2_4/m1_n29_66# GND 5.44
+R attempt2_4/m1_n29_66# 2930
+C attempt2_4/DFFPOSX1_0/vdd GND 22.98
+R attempt2_4/DFFPOSX1_0/vdd 6492
+R attempt2_4/DFFPOSX1_1/a_76_6# 274
+R attempt2_4/DFFPOSX1_1/a_61_6# 274
+R attempt2_4/DFFPOSX1_1/a_31_6# 274
+R attempt2_4/DFFPOSX1_1/a_17_6# 274
+C attempt2_4/DFFPOSX1_1/gnd GND 6.90
+R attempt2_4/DFFPOSX1_1/gnd 3850
+R attempt2_4/DFFPOSX1_1/a_76_84# 351
+R attempt2_4/DFFPOSX1_1/a_61_74# 701
+R attempt2_4/DFFPOSX1_1/a_31_74# 526
+R attempt2_4/DFFPOSX1_1/a_17_74# 526
+C attempt2_4/DFFPOSX1_1/a_66_6# GND 2.10
+R attempt2_4/DFFPOSX1_1/a_66_6# 1422
+R attempt2_4/DFFPOSX1_1/a_22_6# 1483
+R attempt2_4/DFFPOSX1_1/a_34_4# 2843
+C attempt2_4/DFFPOSX1_1/a_2_6# GND 2.87
+R attempt2_4/DFFPOSX1_1/a_2_6# 3550
+C attempt2_4/m1_n31_n51# GND 5.54
+R attempt2_4/m1_n31_n51# 2930
+C attempt2_4/DFFPOSX1_1/vdd GND 22.98
+R attempt2_4/DFFPOSX1_1/vdd 6492
+R attempt2_4/XOR2X1_0/a_35_6# 548
+R attempt2_4/XOR2X1_0/a_18_6# 548
+C attempt2_4/XOR2X1_0/gnd GND 3.69
+R attempt2_4/XOR2X1_0/gnd 2149
+R attempt2_4/XOR2X1_0/a_35_54# 1403
+R attempt2_4/XOR2X1_0/a_18_54# 1403
+C attempt2_4/m1_n64_n214# GND 53.33
+R attempt2_4/m1_n64_n214# 5277
+C attempt2_4/XOR2X1_0/a_2_6# GND 3.28
+R attempt2_4/XOR2X1_0/a_2_6# 2264
+C attempt2_4/XOR2X1_0/a_13_43# GND 2.84
+R attempt2_4/XOR2X1_0/a_13_43# 2220
+C attempt2_4/m1_n54_n42# GND 32.43
+R attempt2_4/m1_n54_n42# 7765
+C attempt2_4/XOR2X1_0/vdd GND 14.77
+R attempt2_4/XOR2X1_0/vdd 3610
+C attempt2_4/OR2X1_0/gnd GND 2.76
+R attempt2_4/OR2X1_0/gnd 1156
+C attempt2_4/Output1 GND 2.78
+R attempt2_4/Output1 589
+R attempt2_4/OR2X1_0/a_9_54# 1403
+C attempt2_4/OR2X1_0/a_2_54# GND 2.54
+R attempt2_4/OR2X1_0/a_2_54# 2027
+C attempt2_4/m1_133_15# GND 3.40
+R attempt2_4/m1_133_15# 1634
+C attempt2_4/Input3 GND 10.56
+R attempt2_4/Input3 1609
+C attempt2_4/OR2X1_0/vdd GND 9.85
+R attempt2_4/OR2X1_0/vdd 2227
+R attempt2_4/DFFPOSX1_2/a_76_6# 274
+R attempt2_4/DFFPOSX1_2/a_61_6# 274
+R attempt2_4/DFFPOSX1_2/a_31_6# 274
+R attempt2_4/DFFPOSX1_2/a_17_6# 274
+C attempt2_4/DFFPOSX1_2/gnd GND 6.90
+R attempt2_4/DFFPOSX1_2/gnd 3850
+R attempt2_4/DFFPOSX1_2/a_76_84# 351
+R attempt2_4/DFFPOSX1_2/a_61_74# 701
+R attempt2_4/DFFPOSX1_2/a_31_74# 526
+R attempt2_4/DFFPOSX1_2/a_17_74# 526
+C attempt2_4/DFFPOSX1_2/a_66_6# GND 2.10
+R attempt2_4/DFFPOSX1_2/a_66_6# 1422
+R attempt2_4/DFFPOSX1_2/a_22_6# 1483
+R attempt2_4/DFFPOSX1_2/a_34_4# 2843
+C attempt2_4/DFFPOSX1_2/a_2_6# GND 2.87
+R attempt2_4/DFFPOSX1_2/a_2_6# 3550
+C attempt2_4/m1_n35_n168# GND 5.75
+R attempt2_4/m1_n35_n168# 2930
+C attempt2_4/DFFPOSX1_2/vdd GND 22.98
+R attempt2_4/DFFPOSX1_2/vdd 6492
+R attempt2_4/XOR2X1_1/a_35_6# 548
+R attempt2_4/XOR2X1_1/a_18_6# 548
+C attempt2_4/XOR2X1_1/gnd GND 3.69
+R attempt2_4/XOR2X1_1/gnd 2149
+R attempt2_4/XOR2X1_1/a_35_54# 1403
+R attempt2_4/m1_133_n102# 1602
+R attempt2_4/XOR2X1_1/a_18_54# 1403
+C attempt2_4/m1_71_n159# GND 10.24
+R attempt2_4/m1_71_n159# 4213
+C attempt2_4/XOR2X1_1/a_2_6# GND 3.28
+R attempt2_4/XOR2X1_1/a_2_6# 2264
+C attempt2_4/XOR2X1_1/a_13_43# GND 2.84
+R attempt2_4/XOR2X1_1/a_13_43# 2220
+C attempt2_4/XOR2X1_1/vdd GND 14.77
+R attempt2_4/XOR2X1_1/vdd 3610
+C attempt2_4/OR2X1_1/gnd GND 2.76
+R attempt2_4/OR2X1_1/gnd 1156
+C attempt2_4/Output2 GND 2.35
+R attempt2_4/Output2 589
+R attempt2_4/OR2X1_1/a_9_54# 1403
+C attempt2_4/OR2X1_1/a_2_54# GND 2.54
+R attempt2_4/OR2X1_1/a_2_54# 2027
+C attempt2_4/Input2 GND 32.36
+R attempt2_4/Input2 1647
+C attempt2_4/OR2X1_1/vdd GND 9.85
+R attempt2_4/OR2X1_1/vdd 2227

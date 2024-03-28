@@ -1,0 +1,259 @@
+* SPICE3 file created from attempt2.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 OR2X1_1/a_9_54# m1_133_n102# OR2X1_1/a_2_54# OR2X1_1/vdd pfet w=40 l=2
++  ad=120 pd=86 as=200 ps=90
+M1001 OR2X1_1/vdd Input2 OR2X1_1/a_9_54# OR2X1_1/vdd pfet w=40 l=2
++  ad=220 pd=92 as=0 ps=0
+M1002 OR2X1_1/a_22_74# OR2X1_1/a_2_54# OR2X1_1/vdd OR2X1_1/vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1003 OR2X1_1/a_2_54# m1_133_n102# OR2X1_1/gnd Gnd nfet w=10 l=2
++  ad=60 pd=32 as=110 ps=62
+M1004 OR2X1_1/gnd Input2 OR2X1_1/a_2_54# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 OR2X1_1/a_22_74# OR2X1_1/a_2_54# OR2X1_1/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1006 XOR2X1_1/vdd m1_n54_n42# XOR2X1_1/a_2_6# XOR2X1_1/vdd pfet w=40 l=2
++  ad=560 pd=188 as=200 ps=90
+M1007 XOR2X1_1/a_18_54# XOR2X1_1/a_13_43# XOR2X1_1/vdd XOR2X1_1/vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1008 m1_133_n102# m1_n54_n42# XOR2X1_1/a_18_54# XOR2X1_1/vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1009 XOR2X1_1/a_35_54# XOR2X1_1/a_2_6# m1_133_n102# XOR2X1_1/vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1010 XOR2X1_1/vdd m1_71_n159# XOR2X1_1/a_35_54# XOR2X1_1/vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1011 XOR2X1_1/a_13_43# m1_71_n159# XOR2X1_1/vdd XOR2X1_1/vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1012 XOR2X1_1/gnd m1_n54_n42# XOR2X1_1/a_2_6# Gnd nfet w=20 l=2
++  ad=280 pd=108 as=100 ps=50
+M1013 XOR2X1_1/a_18_6# XOR2X1_1/a_13_43# XOR2X1_1/gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1014 m1_133_n102# XOR2X1_1/a_2_6# XOR2X1_1/a_18_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1015 XOR2X1_1/a_35_6# m1_n54_n42# m1_133_n102# Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1016 XOR2X1_1/gnd m1_71_n159# XOR2X1_1/a_35_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1017 XOR2X1_1/a_13_43# m1_71_n159# XOR2X1_1/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1018 DFFPOSX1_2/vdd DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_2_6# DFFPOSX1_2/vdd pfet w=40 l=2
++  ad=650 pd=286 as=200 ps=90
+M1019 DFFPOSX1_2/a_17_74# m1_n64_n214# DFFPOSX1_2/vdd DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1020 DFFPOSX1_2/a_22_6# DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_17_74# DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1021 DFFPOSX1_2/a_31_74# DFFPOSX1_2/a_2_6# DFFPOSX1_2/a_22_6# DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1022 DFFPOSX1_2/vdd DFFPOSX1_2/a_34_4# DFFPOSX1_2/a_31_74# DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 DFFPOSX1_2/a_34_4# DFFPOSX1_2/a_22_6# DFFPOSX1_2/vdd DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1024 DFFPOSX1_2/a_61_74# DFFPOSX1_2/a_34_4# DFFPOSX1_2/vdd DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1025 DFFPOSX1_2/a_66_6# DFFPOSX1_2/a_2_6# DFFPOSX1_2/a_61_74# DFFPOSX1_2/vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1026 DFFPOSX1_2/a_76_84# DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_66_6# DFFPOSX1_2/vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1027 DFFPOSX1_2/vdd m1_71_n159# DFFPOSX1_2/a_76_84# DFFPOSX1_2/vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 DFFPOSX1_2/gnd DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_2_6# Gnd nfet w=20 l=2
++  ad=340 pd=168 as=100 ps=50
+M1029 m1_71_n159# DFFPOSX1_2/a_66_6# DFFPOSX1_2/vdd DFFPOSX1_2/vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1030 DFFPOSX1_2/a_17_6# m1_n64_n214# DFFPOSX1_2/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1031 DFFPOSX1_2/a_22_6# DFFPOSX1_2/a_2_6# DFFPOSX1_2/a_17_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1032 DFFPOSX1_2/a_31_6# DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_22_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1033 DFFPOSX1_2/gnd DFFPOSX1_2/a_34_4# DFFPOSX1_2/a_31_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 DFFPOSX1_2/a_34_4# DFFPOSX1_2/a_22_6# DFFPOSX1_2/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1035 DFFPOSX1_2/a_61_6# DFFPOSX1_2/a_34_4# DFFPOSX1_2/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1036 DFFPOSX1_2/a_66_6# DFFPOSX1_2/a_6_33# DFFPOSX1_2/a_61_6# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1037 DFFPOSX1_2/a_76_6# DFFPOSX1_2/a_2_6# DFFPOSX1_2/a_66_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1038 DFFPOSX1_2/gnd m1_71_n159# DFFPOSX1_2/a_76_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1039 m1_71_n159# DFFPOSX1_2/a_66_6# DFFPOSX1_2/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1040 OR2X1_0/a_9_54# Input3 OR2X1_0/a_2_54# OR2X1_0/vdd pfet w=40 l=2
++  ad=120 pd=86 as=200 ps=90
+M1041 OR2X1_0/vdd m1_133_15# OR2X1_0/a_9_54# OR2X1_0/vdd pfet w=40 l=2
++  ad=220 pd=92 as=0 ps=0
+M1042 OR2X1_0/a_22_74# OR2X1_0/a_2_54# OR2X1_0/vdd OR2X1_0/vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1043 OR2X1_0/a_2_54# Input3 OR2X1_0/gnd Gnd nfet w=10 l=2
++  ad=60 pd=32 as=110 ps=62
+M1044 OR2X1_0/gnd m1_133_15# OR2X1_0/a_2_54# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 OR2X1_0/a_22_74# OR2X1_0/a_2_54# OR2X1_0/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1046 XOR2X1_0/vdd m1_n54_n42# XOR2X1_0/a_2_6# XOR2X1_0/vdd pfet w=40 l=2
++  ad=560 pd=188 as=200 ps=90
+M1047 XOR2X1_0/a_18_54# XOR2X1_0/a_13_43# XOR2X1_0/vdd XOR2X1_0/vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1048 m1_133_15# m1_n54_n42# XOR2X1_0/a_18_54# XOR2X1_0/vdd pfet w=40 l=2
++  ad=400 pd=100 as=0 ps=0
+M1049 XOR2X1_0/a_35_54# XOR2X1_0/a_2_6# m1_133_15# XOR2X1_0/vdd pfet w=40 l=2
++  ad=120 pd=86 as=0 ps=0
+M1050 XOR2X1_0/vdd m1_n64_n214# XOR2X1_0/a_35_54# XOR2X1_0/vdd pfet w=40 l=2
++  ad=0 pd=0 as=0 ps=0
+M1051 XOR2X1_0/a_13_43# m1_n64_n214# XOR2X1_0/vdd XOR2X1_0/vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1052 XOR2X1_0/gnd m1_n54_n42# XOR2X1_0/a_2_6# Gnd nfet w=20 l=2
++  ad=280 pd=108 as=100 ps=50
+M1053 XOR2X1_0/a_18_6# XOR2X1_0/a_13_43# XOR2X1_0/gnd Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1054 m1_133_15# XOR2X1_0/a_2_6# XOR2X1_0/a_18_6# Gnd nfet w=20 l=2
++  ad=200 pd=60 as=0 ps=0
+M1055 XOR2X1_0/a_35_6# m1_n54_n42# m1_133_15# Gnd nfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1056 XOR2X1_0/gnd m1_n64_n214# XOR2X1_0/a_35_6# Gnd nfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1057 XOR2X1_0/a_13_43# m1_n64_n214# XOR2X1_0/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1058 DFFPOSX1_1/vdd DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_2_6# DFFPOSX1_1/vdd pfet w=40 l=2
++  ad=650 pd=286 as=200 ps=90
+M1059 DFFPOSX1_1/a_17_74# m1_n54_n42# DFFPOSX1_1/vdd DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1060 DFFPOSX1_1/a_22_6# DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_17_74# DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1061 DFFPOSX1_1/a_31_74# DFFPOSX1_1/a_2_6# DFFPOSX1_1/a_22_6# DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1062 DFFPOSX1_1/vdd DFFPOSX1_1/a_34_4# DFFPOSX1_1/a_31_74# DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1063 DFFPOSX1_1/a_34_4# DFFPOSX1_1/a_22_6# DFFPOSX1_1/vdd DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1064 DFFPOSX1_1/a_61_74# DFFPOSX1_1/a_34_4# DFFPOSX1_1/vdd DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1065 DFFPOSX1_1/a_66_6# DFFPOSX1_1/a_2_6# DFFPOSX1_1/a_61_74# DFFPOSX1_1/vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1066 DFFPOSX1_1/a_76_84# DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_66_6# DFFPOSX1_1/vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1067 DFFPOSX1_1/vdd m1_n64_n214# DFFPOSX1_1/a_76_84# DFFPOSX1_1/vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 DFFPOSX1_1/gnd DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_2_6# Gnd nfet w=20 l=2
++  ad=340 pd=168 as=100 ps=50
+M1069 m1_n64_n214# DFFPOSX1_1/a_66_6# DFFPOSX1_1/vdd DFFPOSX1_1/vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1070 DFFPOSX1_1/a_17_6# m1_n54_n42# DFFPOSX1_1/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1071 DFFPOSX1_1/a_22_6# DFFPOSX1_1/a_2_6# DFFPOSX1_1/a_17_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1072 DFFPOSX1_1/a_31_6# DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_22_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1073 DFFPOSX1_1/gnd DFFPOSX1_1/a_34_4# DFFPOSX1_1/a_31_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 DFFPOSX1_1/a_34_4# DFFPOSX1_1/a_22_6# DFFPOSX1_1/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1075 DFFPOSX1_1/a_61_6# DFFPOSX1_1/a_34_4# DFFPOSX1_1/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1076 DFFPOSX1_1/a_66_6# DFFPOSX1_1/a_6_33# DFFPOSX1_1/a_61_6# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1077 DFFPOSX1_1/a_76_6# DFFPOSX1_1/a_2_6# DFFPOSX1_1/a_66_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1078 DFFPOSX1_1/gnd m1_n64_n214# DFFPOSX1_1/a_76_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1079 m1_n64_n214# DFFPOSX1_1/a_66_6# DFFPOSX1_1/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1080 DFFPOSX1_0/vdd DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_2_6# DFFPOSX1_0/vdd pfet w=40 l=2
++  ad=650 pd=286 as=200 ps=90
+M1081 DFFPOSX1_0/a_17_74# DFFPOSX1_0/a_13_42# DFFPOSX1_0/vdd DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1082 DFFPOSX1_0/a_22_6# DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_17_74# DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=120 pd=52 as=0 ps=0
+M1083 DFFPOSX1_0/a_31_74# DFFPOSX1_0/a_2_6# DFFPOSX1_0/a_22_6# DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=80 pd=48 as=0 ps=0
+M1084 DFFPOSX1_0/vdd DFFPOSX1_0/a_34_4# DFFPOSX1_0/a_31_74# DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1085 DFFPOSX1_0/a_34_4# DFFPOSX1_0/a_22_6# DFFPOSX1_0/vdd DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1086 DFFPOSX1_0/a_61_74# DFFPOSX1_0/a_34_4# DFFPOSX1_0/vdd DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=60 pd=46 as=0 ps=0
+M1087 DFFPOSX1_0/a_66_6# DFFPOSX1_0/a_2_6# DFFPOSX1_0/a_61_74# DFFPOSX1_0/vdd pfet w=20 l=2
++  ad=150 pd=56 as=0 ps=0
+M1088 DFFPOSX1_0/a_76_84# DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_66_6# DFFPOSX1_0/vdd pfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1089 DFFPOSX1_0/vdd m1_n54_n42# DFFPOSX1_0/a_76_84# DFFPOSX1_0/vdd pfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 DFFPOSX1_0/gnd DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_2_6# Gnd nfet w=20 l=2
++  ad=340 pd=168 as=100 ps=50
+M1091 m1_n54_n42# DFFPOSX1_0/a_66_6# DFFPOSX1_0/vdd DFFPOSX1_0/vdd pfet w=40 l=2
++  ad=200 pd=90 as=0 ps=0
+M1092 DFFPOSX1_0/a_17_6# DFFPOSX1_0/a_13_42# DFFPOSX1_0/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1093 DFFPOSX1_0/a_22_6# DFFPOSX1_0/a_2_6# DFFPOSX1_0/a_17_6# Gnd nfet w=10 l=2
++  ad=70 pd=34 as=0 ps=0
+M1094 DFFPOSX1_0/a_31_6# DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_22_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1095 DFFPOSX1_0/gnd DFFPOSX1_0/a_34_4# DFFPOSX1_0/a_31_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 DFFPOSX1_0/a_34_4# DFFPOSX1_0/a_22_6# DFFPOSX1_0/gnd Gnd nfet w=10 l=2
++  ad=50 pd=30 as=0 ps=0
+M1097 DFFPOSX1_0/a_61_6# DFFPOSX1_0/a_34_4# DFFPOSX1_0/gnd Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1098 DFFPOSX1_0/a_66_6# DFFPOSX1_0/a_6_33# DFFPOSX1_0/a_61_6# Gnd nfet w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1099 DFFPOSX1_0/a_76_6# DFFPOSX1_0/a_2_6# DFFPOSX1_0/a_66_6# Gnd nfet w=10 l=2
++  ad=30 pd=26 as=0 ps=0
+M1100 DFFPOSX1_0/gnd m1_n54_n42# DFFPOSX1_0/a_76_6# Gnd nfet w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 m1_n54_n42# DFFPOSX1_0/a_66_6# DFFPOSX1_0/gnd Gnd nfet w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+C0 DFFPOSX1_1/a_2_6# DFFPOSX1_1/vdd 4.88fF
+C1 DFFPOSX1_1/a_34_4# DFFPOSX1_1/vdd 2.48fF
+C2 OR2X1_0/vdd OR2X1_0/a_2_54# 2.08fF
+C3 DFFPOSX1_1/vdd m1_n64_n214# 2.20fF
+C4 DFFPOSX1_1/a_22_6# DFFPOSX1_1/vdd 2.40fF
+C5 DFFPOSX1_0/vdd DFFPOSX1_0/a_22_6# 2.40fF
+C6 DFFPOSX1_1/vdd DFFPOSX1_1/a_6_33# 2.41fF
+C7 m1_71_n159# DFFPOSX1_2/vdd 2.20fF
+C8 m1_n54_n42# DFFPOSX1_0/vdd 2.20fF
+C9 OR2X1_1/a_2_54# OR2X1_1/vdd 2.08fF
+C10 DFFPOSX1_2/vdd DFFPOSX1_2/a_6_33# 2.41fF
+C11 DFFPOSX1_0/vdd DFFPOSX1_0/a_6_33# 2.41fF
+C12 DFFPOSX1_2/vdd DFFPOSX1_2/a_2_6# 4.88fF
+C13 DFFPOSX1_2/vdd DFFPOSX1_2/a_34_4# 2.48fF
+C14 DFFPOSX1_2/vdd DFFPOSX1_2/a_22_6# 2.40fF
+C15 DFFPOSX1_0/vdd DFFPOSX1_0/a_2_6# 4.88fF
+C16 DFFPOSX1_0/vdd DFFPOSX1_0/a_34_4# 2.48fF
+C17 DFFPOSX1_0/gnd Gnd 6.90fF
+C18 DFFPOSX1_0/a_66_6# Gnd 2.10fF
+C19 DFFPOSX1_0/a_2_6# Gnd 2.87fF
+C20 DFFPOSX1_0/a_6_33# Gnd 4.44fF
+C21 DFFPOSX1_0/vdd Gnd 22.98fF
+C22 DFFPOSX1_1/gnd Gnd 6.90fF
+C23 DFFPOSX1_1/a_66_6# Gnd 2.10fF
+C24 DFFPOSX1_1/a_2_6# Gnd 2.87fF
+C25 DFFPOSX1_1/a_6_33# Gnd 4.44fF
+C26 DFFPOSX1_1/vdd Gnd 22.98fF
+C27 XOR2X1_0/gnd Gnd 3.69fF
+C28 m1_n64_n214# Gnd 53.33fF
+C29 XOR2X1_0/a_2_6# Gnd 3.28fF
+C30 XOR2X1_0/a_13_43# Gnd 2.84fF
+C31 m1_n54_n42# Gnd 32.43fF
+C32 XOR2X1_0/vdd Gnd 14.77fF
+C33 OR2X1_0/gnd Gnd 2.76fF
+C34 OR2X1_0/a_2_54# Gnd 2.54fF
+C35 m1_133_15# Gnd 3.40fF
+C36 Input3 Gnd 2.30fF
+C37 OR2X1_0/vdd Gnd 9.85fF
+C38 DFFPOSX1_2/gnd Gnd 6.90fF
+C39 DFFPOSX1_2/a_66_6# Gnd 2.10fF
+C40 DFFPOSX1_2/a_2_6# Gnd 2.87fF
+C41 DFFPOSX1_2/a_6_33# Gnd 4.44fF
+C42 DFFPOSX1_2/vdd Gnd 22.98fF
+C43 XOR2X1_1/gnd Gnd 3.69fF
+C44 m1_71_n159# Gnd 10.24fF
+C45 XOR2X1_1/a_2_6# Gnd 3.28fF
+C46 XOR2X1_1/a_13_43# Gnd 2.84fF
+C47 XOR2X1_1/vdd Gnd 14.77fF
+C48 OR2X1_1/gnd Gnd 2.76fF
+C49 OR2X1_1/a_2_54# Gnd 2.54fF
+C50 OR2X1_1/vdd Gnd 9.85fF
